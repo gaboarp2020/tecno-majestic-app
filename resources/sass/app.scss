@@ -1,0 +1,36 @@
+
+// Font-Awesome
+@import "~font-awesome/scss/font-awesome.scss";
+
+// Custom Variables
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$blue: #72B8E8;
+$orange: #C97024;
+$green: #A2C94A;
+$purple: #7954F7;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $blue;
+$link: $blue;
+$link-focus: $green;
+$link-active: $green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none; 
+$navbar-breakpoint: 769px;
+
+// Bulma
+@import "~bulma/bulma.sass";
