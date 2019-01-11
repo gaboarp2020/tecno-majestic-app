@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Laravel</title>
+        <title>Tecnomajestic | title</title>
 
         <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
         <link href="/css/app.css" rel="stylesheet">
@@ -17,6 +17,8 @@
             <b-navbar></b-navbar>
 
             <router-view></router-view>
+
+            <b-footer></b-footer>
 
         </div>
 

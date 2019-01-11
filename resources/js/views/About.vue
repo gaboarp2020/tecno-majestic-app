@@ -1,23 +1,39 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">The About Page</div>
-
-                    <div class="panel-body">
-                        I'm an example component!
-                    </div>
+    <section id="hero" class="hero is-fullheight" 
+        :style="{ backgroundImage: 'url(' + image + ')' }">
+            <div class="hero-body layer">
+                <div class="container">
+                    <h1 class="title is-1">About Us</h1>
+                    <h2 class="subtitle is-3">
+                        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+                    </h2>
                 </div>
+                <span class="icon is-large donwArrow-icon">
+                    <a href="#section-2">
+                        <i class="fa fa-2x fa-chevron-down"></i>
+                    </a>
+                </span>
             </div>
-        </div>
-    </div>
+        </section>
 </template>
 
 <script>
     export default {
-        created() {
-            // axios call here.
+
+        data() {
+            return {
+
+                title: "Nosotros",
+
+                image: ""
+
+            }
+        },
+
+        beforeMount() {
+            
+            document.title = "Tecnomajestic | " + this.title;
+
         }
     }
 </script>

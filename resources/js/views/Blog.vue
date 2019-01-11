@@ -24,14 +24,16 @@
         data() {
             return {
 
-                image: "../img/construction.jpeg"
+                title: "Blog",
+
+                image: "../img/background/construction.jpeg"
 
             }
         },
 
-        mounted() {
+        beforeMount() {
             
-            //
+            document.title = "Tecnomajestic | " + this.title;
 
         }
     }

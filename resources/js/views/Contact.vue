@@ -19,9 +19,20 @@
 
 <script>
     export default {
-        mounted() {
+
+        data() {
+            return {
+
+                title: "Contacto",
+
+                image: ""
+
+            }
+        },
+
+        beforeMount() {
             
-            //
+            document.title = "Tecnomajestic | " + this.title;
 
         }
     }

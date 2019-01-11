@@ -5,6 +5,11 @@ let routes = [
         path: "/",
         component: require("./views/Home").default
     },
+    
+    {
+        path: "/home",
+        component: require("./views/Home").default
+    },
 
     {
         path: "/nosotros",

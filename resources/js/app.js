@@ -1,6 +1,7 @@
 import './bootstrap';
 import router from './routes';
 import BNavbar from "./components/BNavbar";
+import BFooter from "./components/BFooter";
 
 
 new Vue({
@@ -8,7 +9,9 @@ new Vue({
 
     components: {
 
-        BNavbar
+        BNavbar,
+
+        BFooter
 
     },
 
