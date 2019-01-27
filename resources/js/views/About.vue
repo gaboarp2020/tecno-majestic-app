@@ -31,12 +31,12 @@
                         <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
                     </div>
                     <div class="column has-text-centered">
-                        <!--<img :src="getImgUrl(1)" alt="Grupo de personas" height="320" width="320">-->
+                        <img :src="getImgUrl(1)" alt="Grupo de personas">
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\storage\people-work.jpeg" alt="" srcset="">
+                        <img :src="getImgUrl(2)" alt="Vision">
                     </div>
                     <div class="column">
                         <h1 class="title for-white">Visión</h1>
@@ -61,18 +61,18 @@
         <section class="section is-medium">
             <div class="container">
                 <div class="columns">
-                    <div class="column">
+                    <div class="column has-text-centered">
                         <div>
-                            <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\vector\alarm-clock.png" alt=""  height="140" width="140">
+                            <img :src="getImgUrl(3)" alt="Responsabilidad"  height="140" width="140">
                         </div>
                         <div>
                             <h1 class="title for-white">Responsabilidad</h1>
                             <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column has-text-centered mt-2">
                         <div>
-                            <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\vector\star.png" alt="" height="140" width="140">
+                            <img :src="getImgUrl(4)"  alt="Excelencia" height="140" width="140">
                         </div>
                         <div>
                             <h1 class="title for-white">Excelencia</h1>
@@ -81,18 +81,18 @@
                     </div>
                 </div>
                 <div class="columns">
-                        <div class="column">
+                        <div class="column has-text-centered">
                         <div>
-                            <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\vector\chat.png" alt=""  height="140" width="140">
+                            <img :src="getImgUrl(5)" alt="Comunicacion"  height="140" width="140">
                         </div>
                         <div>
-                            <h1 class="title for-white">Comunicacion</h1>
+                            <h1 class="title for-white ">Comunicacion</h1>
                             <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
                         </div>
                         </div>
-                    <div class="column">
+                    <div class="column  has-text-centered">
                         <div>
-                            <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\vector\winners-ribbon.png" alt="" height="140" width="140">
+                            <img :src="getImgUrl(6)" alt="Competitividad" height="140" width="140">
                         </div>
                         <div>
                             <h1 class="title for-white">Competitividad </h1>
@@ -116,8 +116,22 @@
                 image: [
                     "../img/background/home-about.jpg",
                     "../img/storage/people-work.jpeg",
+                    "../img/storage/vision.jpeg",
+                    "../img/vector/alarm-clock.png",
+                    "../img/vector/star.png",
+                    "../img/vector/chat.png",
+                    "../img/vector/winners-ribbon.png",
                 ]
             }
+        },
+
+        methods: {
+
+            getImgUrl(index) {
+                
+                return this.image[index];
+            }
+
         },
 
         beforeMount() {

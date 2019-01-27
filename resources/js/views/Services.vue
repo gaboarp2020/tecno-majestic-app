@@ -42,8 +42,8 @@
             </nav>
             <div class="bd-content">
                 <div class="columns">
-                    <div class="column">
-                        <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\storage\service.jpg" alt="" srcset=""  height="320" width="320">
+                    <div class="column mt-1">
+                        <img :src="getImgUrl(1)" alt="service" srcset="" >
                     </div>
                     <div class="column">
                         <h1 class="title for-white mt-1">Service</h1>
@@ -67,10 +67,19 @@
                 title: "Servicios",
 
                 image:[
-                    "../img/background/homes-service-2.jpg"
+                    "../img/background/homes-service-2.jpg",
+                    "../img/storage/service.jpg",
                 ] 
 
             }
+        },
+        methods: {
+
+            getImgUrl(index) {
+                
+                return this.image[index];
+            }
+
         },
 
         beforeMount() {

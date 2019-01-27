@@ -2134,8 +2134,13 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       title: "Nosotros",
-      image: ["../img/background/home-about.jpg", "../img/storage/people-work.jpeg"]
+      image: ["../img/background/home-about.jpg", "../img/storage/people-work.jpeg", "../img/storage/vision.jpeg", "../img/vector/alarm-clock.png", "../img/vector/star.png", "../img/vector/chat.png", "../img/vector/winners-ribbon.png"]
     };
+  },
+  methods: {
+    getImgUrl: function getImgUrl(index) {
+      return this.image[index];
+    }
   },
   beforeMount: function beforeMount() {
     document.title = "Tecnomajestic | " + this.title;
@@ -2484,8 +2489,13 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       title: "Servicios",
-      image: ["../img/background/homes-service-2.jpg"]
+      image: ["../img/background/homes-service-2.jpg", "../img/storage/service.jpg"]
     };
+  },
+  methods: {
+    getImgUrl: function getImgUrl(index) {
+      return this.image[index];
+    }
   },
   beforeMount: function beforeMount() {
     document.title = "Tecnomajestic | " + this.title;
@@ -4535,7 +4545,29 @@ var render = function() {
       [_vm._m(0)]
     ),
     _vm._v(" "),
-    _vm._m(1),
+    _c("section", { staticClass: "section is-medium" }, [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "columns mt-1 is-centered is-vcentered" }, [
+          _vm._m(2),
+          _vm._v(" "),
+          _c("div", { staticClass: "column has-text-centered" }, [
+            _c("img", {
+              attrs: { src: _vm.getImgUrl(1), alt: "Grupo de personas" }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column" }, [
+            _c("img", { attrs: { src: _vm.getImgUrl(2), alt: "Vision" } })
+          ]),
+          _vm._v(" "),
+          _vm._m(3)
+        ])
+      ])
+    ]),
     _vm._v(" "),
     _c(
       "section",
@@ -4544,10 +4576,76 @@ var render = function() {
           "hero is-medium has-text-centered is-bold bg-cover is-success",
         style: { backgroundImage: "url(" + _vm.image + ")" }
       },
-      [_vm._m(2)]
+      [_vm._m(4)]
     ),
     _vm._v(" "),
-    _vm._m(3)
+    _c("section", { staticClass: "section is-medium" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column has-text-centered" }, [
+            _c("div", [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(3),
+                  alt: "Responsabilidad",
+                  height: "140",
+                  width: "140"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(5)
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column has-text-centered mt-2" }, [
+            _c("div", [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(4),
+                  alt: "Excelencia",
+                  height: "140",
+                  width: "140"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(6)
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column has-text-centered" }, [
+            _c("div", [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(5),
+                  alt: "Comunicacion",
+                  height: "140",
+                  width: "140"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(7)
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column  has-text-centered" }, [
+            _c("div", [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(6),
+                  alt: "Competitividad",
+                  height: "140",
+                  width: "140"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(8)
+          ])
+        ])
+      ])
+    ])
   ])
 }
 var staticRenderFns = [
@@ -4577,72 +4675,59 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "section is-medium" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c(
-              "h1",
-              { staticClass: "title for-white level-item has-text-centered" },
-              [_vm._v("Descripcion de la Empresa")]
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "is-size-5" }, [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. "
-              )
-            ])
-          ])
-        ]),
+    return _c("div", { staticClass: "columns" }, [
+      _c("div", { staticClass: "column" }, [
+        _c(
+          "h1",
+          { staticClass: "title for-white level-item has-text-centered" },
+          [_vm._v("Descripcion de la Empresa")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "columns mt-1 is-centered is-vcentered" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("h1", { staticClass: "title for-white" }, [_vm._v("Misión")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "is-size-5" }, [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "is-size-5 mt-1" }, [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column has-text-centered" })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("img", {
-              attrs: {
-                src:
-                  "C:\\Users\\Chirino\\Desktop\\tecno-majestic-app\\public\\img\\storage\\people-work.jpeg",
-                alt: "",
-                srcset: ""
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column" }, [
-            _c("h1", { staticClass: "title for-white" }, [_vm._v("Visión")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "is-size-5" }, [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "is-size-5 mt-1" }, [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-              )
-            ])
-          ])
+        _c("p", { staticClass: "is-size-5" }, [
+          _vm._v(
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. "
+          )
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column" }, [
+      _c("h1", { staticClass: "title for-white" }, [_vm._v("Misión")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column" }, [
+      _c("h1", { staticClass: "title for-white" }, [_vm._v("Visión")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
       ])
     ])
   },
@@ -4668,115 +4753,55 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "section is-medium" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("div", [
-              _c("img", {
-                attrs: {
-                  src:
-                    "C:\\Users\\Chirino\\Desktop\\tecno-majestic-app\\public\\img\\vector\\alarm-clock.png",
-                  alt: "",
-                  height: "140",
-                  width: "140"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("h1", { staticClass: "title for-white" }, [
-                _vm._v("Responsabilidad")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "is-size-5" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column" }, [
-            _c("div", [
-              _c("img", {
-                attrs: {
-                  src:
-                    "C:\\Users\\Chirino\\Desktop\\tecno-majestic-app\\public\\img\\vector\\star.png",
-                  alt: "",
-                  height: "140",
-                  width: "140"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("h1", { staticClass: "title for-white" }, [
-                _vm._v("Excelencia")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "is-size-5" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-                )
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("div", [
-              _c("img", {
-                attrs: {
-                  src:
-                    "C:\\Users\\Chirino\\Desktop\\tecno-majestic-app\\public\\img\\vector\\chat.png",
-                  alt: "",
-                  height: "140",
-                  width: "140"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("h1", { staticClass: "title for-white" }, [
-                _vm._v("Comunicacion")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "is-size-5" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column" }, [
-            _c("div", [
-              _c("img", {
-                attrs: {
-                  src:
-                    "C:\\Users\\Chirino\\Desktop\\tecno-majestic-app\\public\\img\\vector\\winners-ribbon.png",
-                  alt: "",
-                  height: "140",
-                  width: "140"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("h1", { staticClass: "title for-white" }, [
-                _vm._v("Competitividad ")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "is-size-5" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-                )
-              ])
-            ])
-          ])
-        ])
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white" }, [_vm._v("Responsabilidad")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white" }, [_vm._v("Excelencia")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white " }, [_vm._v("Comunicacion")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white" }, [_vm._v("Competitividad ")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+        )
       ])
     ])
   }
@@ -5313,7 +5338,23 @@ var render = function() {
       [_vm._m(0)]
     ),
     _vm._v(" "),
-    _vm._m(1)
+    _c("section", { staticClass: "section is-medium" }, [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "bd-content" }, [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column mt-1" }, [
+              _c("img", {
+                attrs: { src: _vm.getImgUrl(1), alt: "service", srcset: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(2)
+          ])
+        ])
+      ])
+    ])
   ])
 }
 var staticRenderFns = [
@@ -5343,72 +5384,53 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "section is-medium" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("nav", { staticClass: "bd-tabs" }, [
-          _c("div", { staticClass: "tabs" }, [
-            _c("ul", [
-              _c("li", { staticClass: "is-active" }, [
-                _c("a", { attrs: { href: "#" } }, [
-                  _vm._v(
-                    "\r\n                            Servicio 1\r\n                            "
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _vm._v(
-                    "\r\n                            Servicio 2\r\n                            "
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _vm._v(
-                    "\r\n                            Servicio 3\r\n                            "
-                  )
-                ])
-              ])
+    return _c("nav", { staticClass: "bd-tabs" }, [
+      _c("div", { staticClass: "tabs" }, [
+        _c("ul", [
+          _c("li", { staticClass: "is-active" }, [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v(
+                "\r\n                            Servicio 1\r\n                            "
+              )
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "bd-content" }, [
-          _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column" }, [
-              _c("img", {
-                attrs: {
-                  src:
-                    "C:\\Users\\Chirino\\Desktop\\tecno-majestic-app\\public\\img\\storage\\service.jpg",
-                  alt: "",
-                  srcset: "",
-                  height: "320",
-                  width: "320"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "column" }, [
-              _c("h1", { staticClass: "title for-white mt-1" }, [
-                _vm._v("Service")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "is-size-5" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-                )
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "is-size-5 mt-1" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-                )
-              ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v(
+                "\r\n                            Servicio 2\r\n                            "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v(
+                "\r\n                            Servicio 3\r\n                            "
+              )
             ])
           ])
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column" }, [
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
       ])
     ])
   }
