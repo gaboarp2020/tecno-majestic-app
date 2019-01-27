@@ -1,11 +1,12 @@
 <template>
+<div class="servicios">
     <section id="hero" class="hero is-fullheight" 
-        :style="{ backgroundImage: 'url(' + image + ')' }">
+        :style="{ backgroundImage: 'url(' + image[0] + ')' }">
             <div class="hero-body layer">
                 <div class="container">
                     <h1 class="title is-1">Servicios</h1>
                     <h2 class="subtitle is-3">
-                        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+                        Los principales productos que ofrecemos para tu empresa
                     </h2>
                 </div>
                 <span class="icon is-large donwArrow-icon">
@@ -14,7 +15,47 @@
                     </a>
                 </span>
             </div>
-        </section>
+    </section>
+
+    <section class="section is-medium">
+        <div class="container">
+            <nav class="bd-tabs">
+                <div class="tabs">
+                    <ul>
+                        <li class="is-active">
+                            <a href="#">
+                            Servicio 1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            Servicio 2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            Servicio 3
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="bd-content">
+                <div class="columns">
+                    <div class="column">
+                        <img src="C:\Users\Chirino\Desktop\tecno-majestic-app\public\img\storage\service.jpg" alt="" srcset=""  height="320" width="320">
+                    </div>
+                    <div class="column">
+                        <h1 class="title for-white mt-1">Service</h1>
+                        <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                        <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
 </template>
 
 <script>
@@ -25,7 +66,9 @@
 
                 title: "Servicios",
 
-                image: ""
+                image:[
+                    "../img/background/homes-service-2.jpg"
+                ] 
 
             }
         },
@@ -37,3 +80,17 @@
         }
     }
 </script>
+
+<style lang="scss" scoped>
+
+    .hero {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        position: relative;
+
+    }
+
+
+</style>
