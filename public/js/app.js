@@ -2485,11 +2485,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       title: "Servicios",
-      image: ["../img/background/homes-service-2.jpg", "../img/storage/service.jpg"]
+      image: ["../img/background/homes-service-2.jpg", "../img/storage/service.jpg"],
+      tabsel: "service1"
     };
   },
   methods: {
@@ -2499,6 +2529,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   beforeMount: function beforeMount() {
     document.title = "Tecnomajestic | " + this.title;
+
+    el: '#vueapp';
   }
 });
 
@@ -5339,18 +5371,158 @@ var render = function() {
     ),
     _vm._v(" "),
     _c("section", { staticClass: "section is-medium" }, [
-      _c("div", { staticClass: "container" }, [
-        _vm._m(1),
-        _vm._v(" "),
-        _c("div", { staticClass: "bd-content" }, [
-          _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column mt-1" }, [
-              _c("img", {
-                attrs: { src: _vm.getImgUrl(1), alt: "service", srcset: "" }
-              })
-            ]),
+      _c("div", { attrs: { id: "vueapp" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("nav", { staticClass: "bd-tabs" }, [
+            _c("div", { staticClass: "tabs is-centered" }, [
+              _c("ul", [
+                _c(
+                  "li",
+                  {
+                    class: { "is-active": _vm.tabsel == "service1" },
+                    on: {
+                      click: function($event) {
+                        _vm.tabsel = "service1"
+                      }
+                    }
+                  },
+                  [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v(
+                        "\r\n                                Servicio 1\r\n                            "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    class: { "is-active": _vm.tabsel == "service2" },
+                    on: {
+                      click: function($event) {
+                        _vm.tabsel = "service2"
+                      }
+                    }
+                  },
+                  [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v(
+                        "\r\n                            Servicio 2\r\n                            "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    class: { "is-active": _vm.tabsel == "service3" },
+                    on: {
+                      click: function($event) {
+                        _vm.tabsel = "service3"
+                      }
+                    }
+                  },
+                  [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v(
+                        "\r\n                            Servicio 3\r\n                            "
+                      )
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "bd-content" }, [
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.tabsel == "service1",
+                    expression: "tabsel == 'service1'"
+                  }
+                ]
+              },
+              [
+                _c("div", { staticClass: "columns" }, [
+                  _c("div", { staticClass: "column mt-1" }, [
+                    _c("img", {
+                      attrs: {
+                        src: _vm.getImgUrl(1),
+                        alt: "service",
+                        srcset: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(1)
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _vm._m(2)
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.tabsel == "service2",
+                    expression: "tabsel == 'service2'"
+                  }
+                ]
+              },
+              [
+                _c("div", { staticClass: "columns" }, [
+                  _c("div", { staticClass: "column mt-1" }, [
+                    _c("img", {
+                      attrs: {
+                        src: _vm.getImgUrl(1),
+                        alt: "service",
+                        srcset: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(2)
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.tabsel == "service3",
+                    expression: "tabsel == 'service3'"
+                  }
+                ]
+              },
+              [
+                _c("div", { staticClass: "columns" }, [
+                  _c("div", { staticClass: "column mt-1" }, [
+                    _c("img", {
+                      attrs: {
+                        src: _vm.getImgUrl(1),
+                        alt: "service",
+                        srcset: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(3)
+                ])
+              ]
+            )
           ])
         ])
       ])
@@ -5384,33 +5556,39 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("nav", { staticClass: "bd-tabs" }, [
-      _c("div", { staticClass: "tabs" }, [
-        _c("ul", [
-          _c("li", { staticClass: "is-active" }, [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v(
-                "\r\n                            Servicio 1\r\n                            "
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v(
-                "\r\n                            Servicio 2\r\n                            "
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v(
-                "\r\n                            Servicio 3\r\n                            "
-              )
-            ])
-          ])
-        ])
+    return _c("div", { staticClass: "column" }, [
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column" }, [
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
       ])
     ])
   },
