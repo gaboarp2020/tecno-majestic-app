@@ -234,7 +234,7 @@
         position: absolute;
         bottom: 10px;
         left: 50%;
-        margin-left: -16px;
+        margin-left: -21px;
     }
 
     .fa-chevron-down {

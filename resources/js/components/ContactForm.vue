@@ -59,7 +59,7 @@
             <div class="field mb-1">
                 <div class="control">
                     <label for="content" class="label">Mensaje</label>
-                    <textarea type="text" id="content" name="content" :class="[{'is-danger': form.errors.has('subject')}, 'is-hovered', 'textarea']" v-model="form.content"></textarea>
+                    <textarea type="text" id="content" name="content" :class="[{'is-danger': form.errors.has('content')}, 'is-hovered', 'textarea']" v-model="form.content"></textarea>
                     <span class="help is-danger" v-if="form.errors.has('content')" v-text="form.errors.get('content')"></span>
                 </div>
             </div>
