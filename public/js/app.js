@@ -1830,23 +1830,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({//
 });
 
@@ -2129,7 +2112,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2201,6 +2183,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/ContactForm.vue */ "./resources/js/components/ContactForm.vue");
 //
 //
 //
@@ -2220,11 +2203,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    ContactForm: _components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
   data: function data() {
     return {
       title: "Contacto",
-      image: ""
+      image: ["../img/background/contact.jpeg"]
     };
   },
   beforeMount: function beforeMount() {
@@ -2514,6 +2506,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2643,7 +2647,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -2662,7 +2666,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n#home {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n    \n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #59829e;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #def1b3;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #d1e2a9;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #f1d0ae;\n}\n.for-orange-subtitle {\n    color: #e4c8aa;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #d3d3d3;\n}\n.mt-1 {\n    margin-top: 1.5rem;\n}\n\n", ""]);
+exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n    \n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #d3d3d3;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
 
 // exports
 
@@ -4000,14 +4004,8 @@ var staticRenderFns = [
     return _c("footer", { staticClass: "footer is-blue" }, [
       _c("div", { staticClass: "content has-text-centered" }, [
         _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "column" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "column" }),
-          _vm._v(" "),
           _c("div", { staticClass: "column" }, [
-            _c("section", { staticClass: "section" }, [
+            _c("section", {}, [
               _c("div", { staticClass: "container has-text-left" }, [
                 _c("p", [
                   _c("a", { attrs: { href: "#" } }, [
@@ -4062,29 +4060,9 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "for-blue" }, [
-          _vm._v("\n            Bulma by "),
-          _c("a", { attrs: { href: "https://jgthms.com" } }, [
-            _vm._v("Jeremy Thomas")
-          ]),
-          _vm._v(". The source code is licensed\n            "),
-          _c(
-            "a",
-            {
-              attrs: { href: "http://opensource.org/licenses/mit-license.php" }
-            },
-            [_vm._v("MIT")]
-          ),
-          _vm._v(". The website content\n            is licensed "),
-          _c(
-            "a",
-            {
-              attrs: {
-                href: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-              }
-            },
-            [_vm._v("CC BY NC SA 4.0")]
-          ),
-          _vm._v(".\n        ")
+          _vm._v(
+            "\n            Bulma by Jeremy Thomas. The source code is licensed\n            MIT. The website content\n            is licensed CC BY NC SA 4.0.\n        "
+          )
         ])
       ])
     ])
@@ -4566,11 +4544,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "nosotros" } }, [
+  return _c("div", { attrs: { id: "about" } }, [
     _c(
       "section",
       {
-        staticClass: "hero is-fullheight",
+        staticClass: "hero is-medium",
         style: { backgroundImage: "url(" + _vm.image[0] + ")" },
         attrs: { id: "hero" }
       },
@@ -4581,47 +4559,53 @@ var render = function() {
       _c("div", { staticClass: "container" }, [
         _vm._m(1),
         _vm._v(" "),
-        _c("div", { staticClass: "columns mt-1 is-centered is-vcentered" }, [
-          _vm._m(2),
-          _vm._v(" "),
-          _c("div", { staticClass: "column has-text-centered" }, [
-            _c("img", {
-              attrs: { src: _vm.getImgUrl(1), alt: "Grupo de personas" }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("img", { attrs: { src: _vm.getImgUrl(2), alt: "Vision" } })
+        _c("div", { staticClass: "section" }, [
+          _c("div", { staticClass: "columns is-vcentered" }, [
+            _c("div", { staticClass: "column has-text-centered mt-3" }, [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(1),
+                  alt: "Grupo de personas",
+                  height: "600",
+                  width: "400"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(2)
           ]),
           _vm._v(" "),
-          _vm._m(3)
+          _c("div", { staticClass: "columns is-vcentered" }, [
+            _vm._m(3),
+            _vm._v(" "),
+            _c("div", { staticClass: "column has-text-centered mt-3" }, [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(2),
+                  alt: "Vision",
+                  height: "600",
+                  width: "400"
+                }
+              })
+            ])
+          ])
         ])
       ])
     ]),
     _vm._v(" "),
-    _c(
-      "section",
-      {
-        staticClass:
-          "hero is-medium has-text-centered is-bold bg-cover is-success",
-        style: { backgroundImage: "url(" + _vm.image + ")" }
-      },
-      [_vm._m(4)]
-    ),
+    _vm._m(4),
     _vm._v(" "),
     _c("section", { staticClass: "section is-medium" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column has-text-centered" }, [
-            _c("div", [
+          _c("div", { staticClass: "column has-text-centered section" }, [
+            _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
                   src: _vm.getImgUrl(3),
                   alt: "Responsabilidad",
-                  height: "140",
-                  width: "140"
+                  height: "100",
+                  width: "100"
                 }
               })
             ]),
@@ -4629,14 +4613,14 @@ var render = function() {
             _vm._m(5)
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column has-text-centered mt-2" }, [
-            _c("div", [
+          _c("div", { staticClass: "column has-text-centered section" }, [
+            _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
                   src: _vm.getImgUrl(4),
                   alt: "Excelencia",
-                  height: "140",
-                  width: "140"
+                  height: "100",
+                  width: "100"
                 }
               })
             ]),
@@ -4646,14 +4630,14 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column has-text-centered" }, [
-            _c("div", [
+          _c("div", { staticClass: "column has-text-centered section" }, [
+            _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
                   src: _vm.getImgUrl(5),
                   alt: "Comunicacion",
-                  height: "140",
-                  width: "140"
+                  height: "100",
+                  width: "100"
                 }
               })
             ]),
@@ -4661,14 +4645,14 @@ var render = function() {
             _vm._m(7)
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column  has-text-centered" }, [
-            _c("div", [
+          _c("div", { staticClass: "column  has-text-centered section" }, [
+            _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
                   src: _vm.getImgUrl(6),
                   alt: "Competitividad",
-                  height: "140",
-                  width: "140"
+                  height: "100",
+                  width: "100"
                 }
               })
             ]),
@@ -4687,18 +4671,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero-body layer" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title is-1" }, [_vm._v("Nosotros")]),
+        _c("h1", { staticClass: "title for-dark-title is-2" }, [
+          _vm._v("Nosotros")
+        ]),
         _vm._v(" "),
-        _c("h2", { staticClass: "subtitle is-3" }, [
+        _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                        Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa \n                    "
+            "\n                    Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa \n                "
           )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("span", { staticClass: "icon is-large donwArrow-icon" }, [
-        _c("a", { attrs: { href: "#section-2" } }, [
-          _c("i", { staticClass: "fa fa-2x fa-chevron-down" })
         ])
       ])
     ])
@@ -4709,15 +4689,13 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "columns" }, [
       _c("div", { staticClass: "column" }, [
-        _c(
-          "h1",
-          { staticClass: "title for-white level-item has-text-centered" },
-          [_vm._v("Descripcion de la Empresa")]
-        ),
+        _c("h1", { staticClass: "title for-white has-text-centered" }, [
+          _vm._v("Tecnomajestic")
+        ]),
         _vm._v(" "),
-        _c("p", { staticClass: "is-size-5" }, [
+        _c("p", { staticClass: "is-size-5 has-text-justified" }, [
           _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. "
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolores modi eos voluptatem fugit temporibus nihil! Laboriosam amet in quis saepe, eligendi ratione laborum, accusantium exercitationem cumque itaque, molestias facilis!"
           )
         ])
       ])
@@ -4736,7 +4714,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-2" }, [
         _vm._v(
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
         )
@@ -4756,7 +4734,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-2" }, [
         _vm._v(
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
         )
@@ -4767,26 +4745,37 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hero-body" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title for-dark-title is-2" }, [
-          _vm._v("Valores")
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "subtitle for-dark-subtitle is-4" }, [
-          _vm._v(
-            "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
-          )
+    return _c(
+      "section",
+      {
+        staticClass:
+          "hero is-medium has-text-centered is-bold bg-cover is-green"
+      },
+      [
+        _c("div", { staticClass: "hero-body" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("h1", { staticClass: "title for-green-title is-2" }, [
+              _vm._v("Valores")
+            ]),
+            _vm._v(" "),
+            _c("h2", { staticClass: "subtitle for-green-subtitle is-4" }, [
+              _vm._v(
+                "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
+              )
+            ])
+          ])
         ])
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("h1", { staticClass: "title for-white" }, [_vm._v("Responsabilidad")]),
+      _c("h1", { staticClass: "title for-white is-size-4" }, [
+        _vm._v("Responsabilidad")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -4800,7 +4789,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("h1", { staticClass: "title for-white" }, [_vm._v("Excelencia")]),
+      _c("h1", { staticClass: "title for-white is-size-4" }, [
+        _vm._v("Excelencia")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -4814,7 +4805,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("h1", { staticClass: "title for-white " }, [_vm._v("Comunicacion")]),
+      _c("h1", { staticClass: "title for-white is-size-4 " }, [
+        _vm._v("Comunicacion")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -4828,7 +4821,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("h1", { staticClass: "title for-white" }, [_vm._v("Competitividad ")]),
+      _c("h1", { staticClass: "title for-white is-size-4" }, [
+        _vm._v("Competitividad ")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -4920,15 +4915,23 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    {
-      staticClass: "hero is-fullheight",
-      style: { backgroundImage: "url(" + _vm.image + ")" },
-      attrs: { id: "hero" }
-    },
-    [_vm._m(0)]
-  )
+  return _c("div", { attrs: { id: "contact" } }, [
+    _c(
+      "section",
+      {
+        staticClass: "hero is-medium bg-cover",
+        style: { backgroundImage: "url(" + _vm.image[0] + ")" },
+        attrs: { id: "hero" }
+      },
+      [_vm._m(0)]
+    ),
+    _vm._v(" "),
+    _c("section", { staticClass: "section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", {}, [_c("contact-form")], 1)
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
@@ -4937,20 +4940,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero-body layer" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title is-1" }, [_vm._v("Contact Us")]),
+        _c("h1", { staticClass: "title for-dark-title is-2" }, [
+          _vm._v("Contáctanos")
+        ]),
         _vm._v(" "),
-        _c("h2", { staticClass: "subtitle is-3" }, [
+        _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                    A simple container to divide your page into "
-          ),
-          _c("strong", [_vm._v("sections")]),
-          _vm._v(", like the one you're currently reading\n                ")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("span", { staticClass: "icon is-large donwArrow-icon" }, [
-        _c("a", { attrs: { href: "#section-2" } }, [
-          _c("i", { staticClass: "fa fa-2x fa-chevron-down" })
+            "\n                    Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa \n                "
+          )
         ])
       ])
     ])
@@ -4988,7 +4985,7 @@ var render = function() {
       [_vm._m(0)]
     ),
     _vm._v(" "),
-    _c("div", { attrs: { id: "home" } }),
+    _c("div", { staticClass: "step", attrs: { id: "home" } }),
     _vm._v(" "),
     _vm._m(1),
     _vm._v(" "),
@@ -4996,7 +4993,7 @@ var render = function() {
       _c("div", { staticClass: "container" }, [
         _vm._m(2),
         _vm._v(" "),
-        _c("div", { staticClass: "columns mt-1 is-centered is-vcentered" }, [
+        _c("div", { staticClass: "columns section is-centered is-vcentered" }, [
           _vm._m(3),
           _vm._v(" "),
           _c("div", { staticClass: "column has-text-centered" }, [
@@ -5163,7 +5160,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero-body layer" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title for-dark-title is-1" }, [
+        _c("h1", { staticClass: "title for-dark-title is-2" }, [
           _vm._v("Section")
         ]),
         _vm._v(" "),
@@ -5207,13 +5204,13 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "columns" }, [
       _c("div", { staticClass: "column" }, [
-        _c("h1", { staticClass: "title for-white" }, [
+        _c("h1", { staticClass: "title for-white has-text-centered" }, [
           _vm._v("Subtitulo de la seccion")
         ]),
         _vm._v(" "),
-        _c("p", { staticClass: "is-size-5" }, [
+        _c("p", { staticClass: "is-size-5 has-text-justified" }, [
           _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. "
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. "
           )
         ])
       ])
@@ -5359,11 +5356,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "servicios" }, [
+  return _c("div", { staticClass: "services" }, [
     _c(
       "section",
       {
-        staticClass: "hero is-fullheight",
+        staticClass: "hero is-medium",
         style: { backgroundImage: "url(" + _vm.image[0] + ")" },
         attrs: { id: "hero" }
       },
@@ -5387,9 +5384,9 @@ var render = function() {
                     }
                   },
                   [
-                    _c("a", { attrs: { href: "#" } }, [
+                    _c("a", [
                       _vm._v(
-                        "\r\n                                Servicio 1\r\n                            "
+                        "\n                                    Servicio 1\n                                "
                       )
                     ])
                   ]
@@ -5406,9 +5403,9 @@ var render = function() {
                     }
                   },
                   [
-                    _c("a", { attrs: { href: "#" } }, [
+                    _c("a", [
                       _vm._v(
-                        "\r\n                            Servicio 2\r\n                            "
+                        "\n                                Servicio 2\n                                "
                       )
                     ])
                   ]
@@ -5425,9 +5422,28 @@ var render = function() {
                     }
                   },
                   [
-                    _c("a", { attrs: { href: "#" } }, [
+                    _c("a", [
                       _vm._v(
-                        "\r\n                            Servicio 3\r\n                            "
+                        "\n                                Servicio 3\n                                "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    class: { "is-active": _vm.tabsel == "service4" },
+                    on: {
+                      click: function($event) {
+                        _vm.tabsel = "service4"
+                      }
+                    }
+                  },
+                  [
+                    _c("a", [
+                      _vm._v(
+                        "\n                                Servicio 4\n                                "
                       )
                     ])
                   ]
@@ -5450,7 +5466,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns" }, [
+                _c("div", { staticClass: "columns section" }, [
                   _c("div", { staticClass: "column mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5479,7 +5495,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns" }, [
+                _c("div", { staticClass: "columns section" }, [
                   _c("div", { staticClass: "column mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5508,7 +5524,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns" }, [
+                _c("div", { staticClass: "columns section" }, [
                   _c("div", { staticClass: "column mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5520,6 +5536,35 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _vm._m(3)
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.tabsel == "service4",
+                    expression: "tabsel == 'service4'"
+                  }
+                ]
+              },
+              [
+                _c("div", { staticClass: "columns section" }, [
+                  _c("div", { staticClass: "column mt-1" }, [
+                    _c("img", {
+                      attrs: {
+                        src: _vm.getImgUrl(1),
+                        alt: "service",
+                        srcset: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(4)
                 ])
               ]
             )
@@ -5536,19 +5581,15 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero-body layer" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title is-1" }, [_vm._v("Servicios")]),
+        _c("h1", { staticClass: "title for-dark-title is-2" }, [
+          _vm._v("Servicios")
+        ]),
         _vm._v(" "),
-        _c("h2", { staticClass: "subtitle is-3" }, [
+        _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\r\n                        Los principales productos que ofrecemos para tu empresa\r\n                    "
+            "\n                    Los principales productos que ofrecemos para tu empresa\n                "
           )
         ])
-      ]),
-      _vm._v(" "),
-      _c("span", { staticClass: "icon is-large donwArrow-icon" }, [
-        _c("a", { attrs: { href: "#section-2" } }, [
-          _c("i", { staticClass: "fa fa-2x fa-chevron-down" })
-        ])
       ])
     ])
   },
@@ -5557,7 +5598,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 1")]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -5577,7 +5618,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 2")]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -5597,7 +5638,27 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 3")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column" }, [
+      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 4")]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
@@ -19840,6 +19901,12 @@ var routes = [{
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes,
+  scrollBehavior: function scrollBehavior(to, from, savedPosition) {
+    return {
+      x: 0,
+      y: 0
+    };
+  },
   linkActiveClass: 'is-active'
 }));
 

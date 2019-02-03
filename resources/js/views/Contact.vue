@@ -1,31 +1,45 @@
 <template>
-    <section id="hero" class="hero is-fullheight" 
-        :style="{ backgroundImage: 'url(' + image + ')' }">
+    <div id="contact">
+        <section id="hero" class="hero is-medium bg-cover" 
+        :style="{ backgroundImage: 'url(' + image[0] + ')' }">
             <div class="hero-body layer">
                 <div class="container">
-                    <h1 class="title is-1">Contact Us</h1>
-                    <h2 class="subtitle is-3">
-                        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+                    <h1 class="title for-dark-title is-2">Contáctanos</h1>
+                    <h2 class="subtitle for-dark-subtitle is-3">
+                        Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa 
                     </h2>
                 </div>
-                <span class="icon is-large donwArrow-icon">
-                    <a href="#section-2">
-                        <i class="fa fa-2x fa-chevron-down"></i>
-                    </a>
-                </span>
             </div>
         </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="">
+                    <contact-form></contact-form>
+                </div>
+            </div>
+        </section>
+    </div>
 </template>
 
 <script>
+
+    import ContactForm from '../components/ContactForm.vue';
+
     export default {
+
+        components: { ContactForm },
 
         data() {
             return {
 
                 title: "Contacto",
 
-                image: ""
+                image: [
+
+                    "../img/background/contact.jpeg"
+
+                    ]
 
             }
         },

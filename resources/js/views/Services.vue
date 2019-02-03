@@ -1,90 +1,102 @@
 <template>
-<div class="servicios">
-    <section id="hero" class="hero is-fullheight" 
-        :style="{ backgroundImage: 'url(' + image[0] + ')' }">
+    <div class="services">
+        <section id="hero" class="hero is-medium" 
+            :style="{ backgroundImage: 'url(' + image[0] + ')' }">
             <div class="hero-body layer">
                 <div class="container">
-                    <h1 class="title is-1">Servicios</h1>
-                    <h2 class="subtitle is-3">
+                    <h1 class="title for-dark-title is-2">Servicios</h1>
+                    <h2 class="subtitle for-dark-subtitle is-3">
                         Los principales productos que ofrecemos para tu empresa
                     </h2>
                 </div>
-                <span class="icon is-large donwArrow-icon">
-                    <a href="#section-2">
-                        <i class="fa fa-2x fa-chevron-down"></i>
-                    </a>
-                </span>
             </div>
-    </section>
+        </section>
 
-    <section class="section is-medium">
-        <div id="vueapp" >
-        <div class="container">
-            <nav class="bd-tabs">
-                <div class="tabs is-centered">
-                    <ul>
-                        <li v-bind:class="{ 'is-active': tabsel == 'service1' }" @click="tabsel ='service1'" >
-                            <a href="#">
-                                Servicio 1
-                            </a>
-                        </li>
-                        <li v-bind:class="{ 'is-active': tabsel == 'service2' }" @click="tabsel ='service2'" >
-                            <a href="#">
-                            Servicio 2
-                            </a>
-                        </li>
-                        <li v-bind:class="{ 'is-active': tabsel == 'service3' }" @click="tabsel ='service3'" >
-                            <a href="#">
-                            Servicio 3
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="bd-content">
-                <div v-show="tabsel == 'service1'">
-                    <div class="columns">
-                        <div class="column mt-1">
-                            <img :src="getImgUrl(1)" alt="service" srcset="" >
+        <section class="section is-medium">
+            <div id="vueapp" >
+                <div class="container">
+                    <nav class="bd-tabs">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li v-bind:class="{ 'is-active': tabsel == 'service1' }" @click="tabsel ='service1'" >
+                                    <a>
+                                        Servicio 1
+                                    </a>
+                                </li>
+                                <li v-bind:class="{ 'is-active': tabsel == 'service2' }" @click="tabsel ='service2'" >
+                                    <a>
+                                    Servicio 2
+                                    </a>
+                                </li>
+                                <li v-bind:class="{ 'is-active': tabsel == 'service3' }" @click="tabsel ='service3'" >
+                                    <a>
+                                    Servicio 3
+                                    </a>
+                                </li>
+                                <li v-bind:class="{ 'is-active': tabsel == 'service4' }" @click="tabsel ='service4'" >
+                                    <a>
+                                    Servicio 4
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="column">
-                            <h1 class="title for-white mt-1">Service</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                            <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                    </nav>
+                    <div class="bd-content">
+                        <div v-show="tabsel == 'service1'">
+                            <div class="columns section">
+                                <div class="column mt-1">
+                                    <img :src="getImgUrl(1)" alt="service" srcset="" >
+                                </div>
+                                <div class="column">
+                                    <h1 class="title for-white mt-1">Service 1</h1>
+                                    <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                    <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-show="tabsel == 'service2'">
+                            <div class="columns section">
+                                <div class="column mt-1">
+                                    <img :src="getImgUrl(1)" alt="service" srcset="" >
+                                </div>
+                                <div class="column">
+                                    <h1 class="title for-white mt-1">Service 2</h1>
+                                    <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                    <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-show="tabsel == 'service3'">
+                            <div class="columns section">
+                                <div class="column mt-1">
+                                    <img :src="getImgUrl(1)" alt="service" srcset="" >
+                                </div>
+                                <div class="column">
+                                    <h1 class="title for-white mt-1">Service 3</h1>
+                                    <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                    <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-show="tabsel == 'service4'">
+                            <div class="columns section">
+                                <div class="column mt-1">
+                                    <img :src="getImgUrl(1)" alt="service" srcset="" >
+                                </div>
+                                <div class="column">
+                                    <h1 class="title for-white mt-1">Service 4</h1>
+                                    <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                    <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                    <div v-show="tabsel == 'service2'">
-                    <div class="columns">
-                        <div class="column mt-1">
-                            <img :src="getImgUrl(1)" alt="service" srcset="" >
-                        </div>
-                        <div class="column">
-                            <h1 class="title for-white mt-1">Service</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                            <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                        </div>
-                    </div>
-                </div>
-                    <div v-show="tabsel == 'service3'">
-                    <div class="columns">
-                        <div class="column mt-1">
-                            <img :src="getImgUrl(1)" alt="service" srcset="" >
-                        </div>
-                        <div class="column">
-                            <h1 class="title for-white mt-1">Service</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                            <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
-        </div>
+        </section>
 
-        </div>
-    </section>
-
-</div>
+    </div>
 </template>
 
 <script>

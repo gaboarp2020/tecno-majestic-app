@@ -3,28 +3,11 @@
         <div class="content has-text-centered">
             <div class="columns">
                     
-                <div class="column">
-
-
-
-                </div>
+                
 
                 <div class="column">
 
-
-
-                </div>
-
-                <div class="column">
-
-
-
-                </div>
-
-
-                <div class="column">
-
-                    <section class="section">
+                    <section class="">
                         <div class="container has-text-left">
                             <p>
 
@@ -74,9 +57,9 @@
             </div>
 
             <p class="for-blue">
-                Bulma by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                Bulma by Jeremy Thomas. The source code is licensed
+                MIT. The website content
+                is licensed CC BY NC SA 4.0.
             </p>
         </div>
     </footer>

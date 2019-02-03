@@ -36,6 +36,13 @@ export default new VueRouter({
 
     routes,
 
+    scrollBehavior(to, from, savedPosition) {
+        return {
+            x: 0,
+            y: 0
+        }
+    },
+
     linkActiveClass: 'is-active'
 
 });

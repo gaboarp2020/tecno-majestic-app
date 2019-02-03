@@ -5,7 +5,7 @@
         :style="{ backgroundImage: 'url(' + image[0] + ')' }">
             <div class="hero-body layer">
                 <div class="container">
-                    <h1 class="title for-dark-title is-1">Section</h1>
+                    <h1 class="title for-dark-title is-2">Section</h1>
                     <h2 class="subtitle for-dark-subtitle is-3">
                         A simple container to divide your page into sections, like the one you're currently reading
                     </h2>
@@ -18,7 +18,7 @@
             </div>
         </section>
 
-        <div id="home"></div>
+        <div id="home" class="step"></div>
 
         <section class="hero is-orange is-bold">
             <div class="hero-body">
@@ -35,11 +35,11 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h1 class="title for-white">Subtitulo de la seccion</h1>
-                        <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. </p>
+                        <h1 class="title for-white has-text-centered">Subtitulo de la seccion</h1>
+                        <p class="is-size-5 has-text-justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. </p>
                     </div>
                 </div>
-                <div class="columns mt-1 is-centered is-vcentered">
+                <div class="columns section is-centered is-vcentered">
                     <div class="column">
                         <h1 class="title for-white">Otro subtitulo de la seccion</h1>
                         <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
@@ -199,7 +199,7 @@
         scroll-behavior: smooth;
     }
 
-    #home {
+    .step {
         position: relative;
         bottom: 52px;
     }
@@ -219,7 +219,6 @@
 
     .layer {
         background-color: rgba(74, 74, 74, 0.5);
-        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -274,7 +273,7 @@
     }
 
     .for-blue {
-        color: #59829e;
+        color: #cce7f9;
     }
 
     .is-green {
@@ -284,12 +283,12 @@
     }
 
     .for-green-title {
-        color: #def1b3;
+        color: #edffc4;
         /* color: #778c48; */
     }
 
     .for-green-subtitle {
-        color: #d1e2a9;
+        color: #e8f3ce;
         /* color: #7c9050; */
     }
 
@@ -300,11 +299,11 @@
     }
 
     .for-orange-title {
-        color: #f1d0ae;
+        color: #ffedda;
     }
 
     .for-orange-subtitle {
-        color: #e4c8aa;
+        color: #ffe5c8;
     }
 
     .is-purple{
@@ -330,7 +329,19 @@
     }
 
     .mt-1 {
+        margin-top: 1rem;
+    }
+    
+    .mt-2 {
         margin-top: 1.5rem;
+    }
+    
+    .mt-3 {
+        margin-top: 3rem;
+    }
+
+    .box {
+        background-color: #f7f7f7;
     }
 
 </style>
