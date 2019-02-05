@@ -7,7 +7,7 @@
 
         <title>Tecnomajestic | title</title>
 
-        <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
+        <link rel="shortcut icon" href="/favicon.ico">
         <link href="/css/app.css" rel="stylesheet">
     </head>
     <body>

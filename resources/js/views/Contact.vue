@@ -51,3 +51,19 @@
         }
     }
 </script>
+
+
+<style lang="scss" scoped>
+
+    .hero {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        position: relative;
+        margin-top: 52px;
+
+    }
+
+
+</style>
