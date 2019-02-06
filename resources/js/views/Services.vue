@@ -146,6 +146,7 @@
         background-repeat: no-repeat;
         background-position: left;
         position: relative;
+        margin-top: 52px;
 
     }
 
