@@ -2,11 +2,11 @@
     <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-                <img src="img/logo.png" width="118px" height="28px">
+                <img src="img/logo13.png" width="118px" height="28px">
             </a>
 
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="menu" 
-                @click="showNav = !showNav" 
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="menu"
+                @click="showNav = !showNav"
                 :class="{ 'is-active': showNav }"
             >
                 <span aria-hidden="true"></span>
@@ -54,7 +54,7 @@
     }
 
     a.navbar-item.is-active, .navbar-link.is-active {
-           
+
         color: #72B8E8;
 
     }
