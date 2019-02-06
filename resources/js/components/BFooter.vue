@@ -2,8 +2,8 @@
     <footer class="footer is-blue">
         <div class="content has-text-centered">
             <div class="columns">
-                    
-                
+
+
 
                 <div class="column">
 
@@ -15,9 +15,9 @@
                                     <span class="icon">
                                             <i class="fa for-blue fa-facebook-f"></i>
                                     </span>
-                                    <strong class="for-blue">Faceboock</strong>
+                                    <strong class="for-blue">Facebook</strong>
                                 </a>
-                                
+
                             </p>
                             <p>
 
@@ -27,7 +27,7 @@
                                     </span>
                                     <strong class="for-blue">Twitter</strong>
                                 </a>
-                                
+
                             </p>
                             <p>
 
@@ -37,7 +37,7 @@
                                     </span>
                                     <strong class="for-blue">Instagram</strong>
                                 </a>
-                                
+
                             </p>
                             <p>
 
@@ -45,9 +45,9 @@
                                     <span class="icon">
                                             <i class="fa for-blue fa-linkedin"></i>
                                     </span>
-                                    <strong class="for-blue">Linkedin</strong>
+                                    <strong class="for-blue">LinkedIn</strong>
                                 </a>
-                                
+
                             </p>
                         </div>
                     </section>
@@ -57,9 +57,7 @@
             </div>
 
             <p class="for-blue">
-                Bulma by Jeremy Thomas. The source code is licensed
-                MIT. The website content
-                is licensed CC BY NC SA 4.0.
+                Consultorías Tecnológicas por TecnoMajestic, C.A. | Caracas, Venezuela | Koodev Developers. &copy; 2019 Todos los derechos reservados.
             </p>
         </div>
     </footer>
@@ -77,7 +75,7 @@
 
 <style>
 
-    
+
 
 </style>
 

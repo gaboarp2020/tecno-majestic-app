@@ -1828,8 +1828,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({//
 });
 
@@ -2385,6 +2383,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2522,7 +2522,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       title: "Servicios",
-      image: ["../img/background/homes-service-2.jpg", "../img/storage/service.jpg"],
+      image: ["../img/background/homes-service-2.jpg", "../img/storage/hosting-v2.jpg", "../img/storage/development-v2.jpg", "../img/storage/consulting-v2.jpg", "../img/storage/opensource-v2.jpg"],
       tabsel: "service1"
     };
   },
@@ -2609,7 +2609,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".hero[data-v-78b5237e] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: left;\n  position: relative;\n}\n.layer[data-v-78b5237e] {\n  background-color: rgba(248, 247, 216, 0.7);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}", ""]);
+exports.push([module.i, ".hero[data-v-78b5237e] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: left;\n  position: relative;\n}\n.layer[data-v-78b5237e] {\n  background-color: rgba(248, 247, 216, 0.7);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.mb-2[data-v-78b5237e] {\n  margin-bottom: 1.5rem;\n}", ""]);
 
 // exports
 
@@ -2666,7 +2666,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -2685,7 +2685,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n    \n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #d3d3d3;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
+exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #d3d3d3;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
 
 // exports
 
@@ -4063,7 +4063,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Faceboock")
+                      _vm._v("Facebook")
                     ])
                   ])
                 ]),
@@ -4099,7 +4099,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Linkedin")
+                      _vm._v("LinkedIn")
                     ])
                   ])
                 ])
@@ -4110,7 +4110,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "for-blue" }, [
           _vm._v(
-            "\n            Bulma by Jeremy Thomas. The source code is licensed\n            MIT. The website content\n            is licensed CC BY NC SA 4.0.\n        "
+            "\n            Consultorías Tecnológicas por TecnoMajestic, C.A. | Caracas, Venezuela | Koodev Developers. © 2019 Todos los derechos reservados.\n        "
           )
         ])
       ])
@@ -4241,7 +4241,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("a", { staticClass: "navbar-item", attrs: { href: "/" } }, [
       _c("img", {
-        attrs: { src: "img/logo.png", width: "118px", height: "28px" }
+        attrs: { src: "img/logo13.png", width: "118px", height: "28px" }
       })
     ])
   }
@@ -4726,7 +4726,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                    Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa \n                "
+            "\n                    Ofrecemos los mejores servicios a nivel tecnológico y soluciones para tu empresa\n                "
           )
         ])
       ])
@@ -4739,12 +4739,12 @@ var staticRenderFns = [
     return _c("div", { staticClass: "columns" }, [
       _c("div", { staticClass: "column" }, [
         _c("h1", { staticClass: "title for-white has-text-centered" }, [
-          _vm._v("Tecnomajestic")
+          _vm._v("Innovamos en materia tecnológica")
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "is-size-5 has-text-justified" }, [
           _vm._v(
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolores modi eos voluptatem fugit temporibus nihil! Laboriosam amet in quis saepe, eligendi ratione laborum, accusantium exercitationem cumque itaque, molestias facilis!"
+            "Somos una empresa multidisciplinaria de marketing, diseño y desarrollo web, implementaciones de servicios de hosting, servidores y consultora tecnológica con amplio dominio en las arquitecturas y tecnologías más modernas."
           )
         ])
       ])
@@ -4759,15 +4759,11 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Brindar soluciones modernas, bajo ambiente web o móvil y diseñadas para asegurar un funcionamiento óptimo, brindando confianza y seguridad a cualquier negocio en América."
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-2" }, [
-        _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-        )
-      ])
+      _c("p", { staticClass: "is-size-5 mt-2" })
     ])
   },
   function() {
@@ -4779,15 +4775,11 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Ser la mejor opción para la consultoría y el desarrollo de soluciones en sistemas de información adecuados a sus necesidades, seguros y confiables."
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-2" }, [
-        _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
-        )
-      ])
+      _c("p", { staticClass: "is-size-5 mt-2" })
     ])
   },
   function() {
@@ -4809,7 +4801,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("h2", { staticClass: "subtitle for-green-subtitle is-4" }, [
               _vm._v(
-                "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
+                "\n                    Lo mejor de nosotros, para nuestros clientes.\n                "
               )
             ])
           ])
@@ -4827,9 +4819,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
-        _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-        )
+        _vm._v("Soluciones dentro del tiempo requerido.")
       ])
     ])
   },
@@ -4843,9 +4833,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
-        _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-        )
+        _vm._v("Servicio de calidad, por profesionales.")
       ])
     ])
   },
@@ -4860,7 +4848,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+          "Contacto permanente con el cliente involucrandolo en cada fase del desarrollo."
         )
       ])
     ])
@@ -4875,9 +4863,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
-        _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
-        )
+        _vm._v("Tus soluciones a precios competitivos en el mercado.")
       ])
     ])
   }
@@ -4922,21 +4908,23 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero-body layer" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title is-1" }, [
-          _vm._v("¡Bajo Construcción!")
+        _c("h1", { staticClass: "title is-2 mb-2" }, [
+          _vm._v("¡Zona en Construcción!")
         ]),
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle is-3" }, [
-          _vm._v("\n                    Actualmente mantenemos este sitio "),
+          _vm._v("\n                    Actualmente tenemos nuestro Blog"),
           _c("strong", [_vm._v(" bajo Construcción ")]),
-          _vm._v(" para brindarte un mejor servicio.\n                ")
+          _vm._v(
+            " para brindarte un mejor servicio y la mejor información tecnológica.\n                "
+          )
         ]),
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle is-3" }, [
           _vm._v("\n                    Revisa nuestros  "),
           _c("a", { attrs: { href: "#/servicios" } }, [_vm._v("servicios")]),
           _vm._v(" o "),
-          _c("a", { attrs: { href: "#/Contacto" } }, [_vm._v("contactanos")]),
+          _c("a", { attrs: { href: "#/Contacto" } }, [_vm._v("contáctanos")]),
           _vm._v(" para mayor información.\n                ")
         ])
       ])
@@ -4995,7 +4983,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                    Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa \n                "
+            "\n                    Ofrecemos los mejores servicios a nivel tecnológico y soluciones para tu empresa\n                "
           )
         ])
       ])
@@ -5086,12 +5074,12 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Servicio")
+                  _vm._v("Implementación y Hosting")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+                    "Especializados en plataformas de hosting remotas o privadas del cliente."
                   )
                 ]),
                 _vm._v(" "),
@@ -5113,12 +5101,12 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Servicio")
+                  _vm._v("Desarrollo de Apps Web y Móviles")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+                    "Plataformas web o móviles, con las tecnologías más innovadoras y modernas."
                   )
                 ]),
                 _vm._v(" "),
@@ -5142,12 +5130,12 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Servicio")
+                  _vm._v("Consultorías Tecnológicas")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+                    "Grupo especializado en ofrecerte la mejor solución para tus necesidades"
                   )
                 ]),
                 _vm._v(" "),
@@ -5169,12 +5157,12 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Servicio")
+                  _vm._v("Plataformas de código abierto")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis."
+                    "ERP, CMS, e-commerce y CMS. Data Warehouse e Inteligencia de Negocios."
                   )
                 ]),
                 _vm._v(" "),
@@ -5210,12 +5198,12 @@ var staticRenderFns = [
     return _c("div", { staticClass: "hero-body layer" }, [
       _c("div", { staticClass: "container" }, [
         _c("h1", { staticClass: "title for-dark-title is-2" }, [
-          _vm._v("Section")
+          _vm._v("Innovando las Consultorías Tecnológicas")
         ]),
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
+            "\n                    Consultorías y desarrollo web. Implementación en tiempo récord.\n                "
           )
         ])
       ]),
@@ -5240,7 +5228,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h2", { staticClass: "subtitle for-orange-subtitle is-4" }, [
             _vm._v(
-              "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
+              "\n                    Somos una empresa fundada en el año 2018. Estamos orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.\n                "
             )
           ])
         ])
@@ -5254,12 +5242,12 @@ var staticRenderFns = [
     return _c("div", { staticClass: "columns" }, [
       _c("div", { staticClass: "column" }, [
         _c("h1", { staticClass: "title for-white has-text-centered" }, [
-          _vm._v("Subtitulo de la seccion")
+          _vm._v("Nuestro equipo de trabajo")
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "is-size-5 has-text-justified" }, [
           _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. "
+            "Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos,  estamos orgullosos de nuestra misión"
           )
         ])
       ])
@@ -5270,19 +5258,17 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white" }, [
-        _vm._v("Otro subtitulo de la seccion")
-      ]),
-      _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Brindaremos soluciones modernas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7."
         )
       ]),
       _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Tenemos la convicción de ser la mejor opción para consultorías en el área tecnológica y el desarrollo de soluciones en sistemas de información sofisticados adecuados a sus necesidades, seguros y confiables."
         )
       ])
     ])
@@ -5299,7 +5285,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-4" }, [
           _vm._v(
-            "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
+            "\n                    Integramos la implementación de Sistemas de Información bajo diversas tecnologías orientadas web, diseñando e implementando tanto en la nube como en infraestructura privada.\n                "
           )
         ])
       ])
@@ -5372,12 +5358,12 @@ var staticRenderFns = [
     return _c("div", { staticClass: "hero-body grey-layer" }, [
       _c("div", { staticClass: "container" }, [
         _c("h1", { staticClass: "title for-dark-title is-2" }, [
-          _vm._v("Contactanos")
+          _vm._v("Contáctanos")
         ]),
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-4" }, [
           _vm._v(
-            "\n                    A simple container to divide your page into sections, like the one you're currently reading\n                "
+            "\n                    ¿Tienes alguna duda? ¡Comunícate con nosotros!\n                "
           )
         ])
       ])
@@ -5435,7 +5421,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                    Servicio 1\n                                "
+                        "\n                                    Implementación y Hosting\n                                "
                       )
                     ])
                   ]
@@ -5454,7 +5440,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                Servicio 2\n                                "
+                        "\n                                Desarrollo de Apps Web\n                                "
                       )
                     ])
                   ]
@@ -5473,7 +5459,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                Servicio 3\n                                "
+                        "\n                                Consultorías Tecnológicas\n                                "
                       )
                     ])
                   ]
@@ -5492,7 +5478,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                Servicio 4\n                                "
+                        "\n                                Plataformas de código abierto\n                                "
                       )
                     ])
                   ]
@@ -5516,7 +5502,7 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "columns section" }, [
-                  _c("div", { staticClass: "column mt-1" }, [
+                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
                         src: _vm.getImgUrl(1),
@@ -5545,10 +5531,10 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "columns section" }, [
-                  _c("div", { staticClass: "column mt-1" }, [
+                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
-                        src: _vm.getImgUrl(1),
+                        src: _vm.getImgUrl(2),
                         alt: "service",
                         srcset: ""
                       }
@@ -5574,10 +5560,10 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "columns section" }, [
-                  _c("div", { staticClass: "column mt-1" }, [
+                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
-                        src: _vm.getImgUrl(1),
+                        src: _vm.getImgUrl(3),
                         alt: "service",
                         srcset: ""
                       }
@@ -5603,10 +5589,10 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "columns section" }, [
-                  _c("div", { staticClass: "column mt-1" }, [
+                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
-                        src: _vm.getImgUrl(1),
+                        src: _vm.getImgUrl(4),
                         alt: "service",
                         srcset: ""
                       }
@@ -5636,7 +5622,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                    Los principales productos que ofrecemos para tu empresa\n                "
+            "\n                    Los principales servicios que ofrecemos para tu empresa son los siguientes\n                "
           )
         ])
       ])
@@ -5647,17 +5633,19 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 1")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [
+        _vm._v("Implementación y Hosting")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Ofrecemos algunos beneficios claves para los Sistemas de Información empresariales: Ahorro de costes, rapidez de implementación y escalabilidad."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Nos basamos en nuevos modelos de negocios que ofrecen servicios con muchas características atractivas para la mayoría de las empresas."
         )
       ])
     ])
@@ -5667,17 +5655,19 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 2")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [
+        _vm._v("Desarrollo de Aplicaciones Web")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Las aplicaciones web son muy populares actualmente y compatibles con cualquier sistema operativo. Su bajo o nulo mantenimiento las convierten en una muy buena opción para usuarios finales."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Si piensa en desarrollar alguna webapp nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento."
         )
       ])
     ])
@@ -5687,17 +5677,19 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 3")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [
+        _vm._v("Consultorías Tecnológicas")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios."
         )
       ])
     ])
@@ -5707,17 +5699,19 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [_vm._v("Service 4")]),
+      _c("h1", { staticClass: "title for-white mt-1" }, [
+        _vm._v("Plataformas de código abierto")
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "En el entorno de negocios mundial, las empresas emergentes más exitosas no utilizan software propietario sino abierto, dándoles una mayor oportunidad de innovar y madurar."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut."
+          "Impulsamos tu competitividad ayudándote a reaccionar a los cambios del mercado. Satisfacemos todas tus necesidades que permitan integrar el código abierto en tus proyectos."
         )
       ])
     ])
@@ -20676,8 +20670,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

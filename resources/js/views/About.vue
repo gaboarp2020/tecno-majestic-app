@@ -1,12 +1,12 @@
 <template>
     <div id="about" >
-        <section id="hero" class="hero is-medium" 
+        <section id="hero" class="hero is-medium"
             :style="{ backgroundImage: 'url(' + image[0] + ')' }">
             <div class="hero-body layer">
                 <div class="container">
                     <h1 class="title for-dark-title is-2">Nosotros</h1>
                     <h2 class="subtitle for-dark-subtitle is-3">
-                        Ofrecemos los mejores servicios a nivel tecnologico y soluciones para tu empresa 
+                        Ofrecemos los mejores servicios a nivel tecnológico y soluciones para tu empresa
                     </h2>
                 </div>
             </div>
@@ -16,11 +16,11 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h1 class="title for-white has-text-centered">Tecnomajestic</h1>
-                        <p class="is-size-5 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolores modi eos voluptatem fugit temporibus nihil! Laboriosam amet in quis saepe, eligendi ratione laborum, accusantium exercitationem cumque itaque, molestias facilis!</p>
+                        <h1 class="title for-white has-text-centered">Innovamos en materia tecnológica</h1>
+                        <p class="is-size-5 has-text-justified">Somos una empresa multidisciplinaria de marketing, diseño y desarrollo web, implementaciones de servicios de hosting, servidores y consultora tecnológica con amplio dominio en las arquitecturas y tecnologías más modernas.</p>
                     </div>
                 </div>
-                
+
                 <div class="section">
                     <div class="columns is-vcentered">
                         <div class="column has-text-centered mt-3">
@@ -28,15 +28,15 @@
                         </div>
                         <div class="column">
                             <h1 class="title for-white">Misión</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                            <p class="is-size-5 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                            <p class="is-size-5">Brindar soluciones modernas, bajo ambiente web o móvil y diseñadas para asegurar un funcionamiento óptimo, brindando confianza y seguridad a cualquier negocio en América.</p>
+                            <p class="is-size-5 mt-2"></p>
                         </div>
                     </div>
                     <div class="columns is-vcentered">
                         <div class="column">
                             <h1 class="title for-white">Visión</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                            <p class="is-size-5 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                            <p class="is-size-5">Ser la mejor opción para la consultoría y el desarrollo de soluciones en sistemas de información adecuados a sus necesidades, seguros y confiables.</p>
+                            <p class="is-size-5 mt-2"></p>
                         </div>
                         <div class="column has-text-centered mt-3">
                             <img :src="getImgUrl(2)" alt="Vision" height="600" width="400">
@@ -51,7 +51,7 @@
                 <div class="container">
                     <h1 class="title for-green-title is-2">Valores</h1>
                     <h2 class="subtitle for-green-subtitle is-4">
-                        A simple container to divide your page into sections, like the one you're currently reading
+                        Lo mejor de nosotros, para nuestros clientes.
                     </h2>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4">Responsabilidad</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                            <p class="is-size-5">Soluciones dentro del tiempo requerido.</p>
                         </div>
                     </div>
                     <div class="column has-text-centered section">
@@ -75,7 +75,7 @@
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4">Excelencia</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                            <p class="is-size-5">Servicio de calidad, por profesionales.</p>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4 ">Comunicacion</h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                            <p class="is-size-5">Contacto permanente con el cliente involucrandolo en cada fase del desarrollo.</p>
                         </div>
                         </div>
                     <div class="column  has-text-centered section">
@@ -95,7 +95,7 @@
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4">Competitividad </h1>
-                            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                            <p class="is-size-5">Tus soluciones a precios competitivos en el mercado.</p>
                         </div>
                     </div>
                 </div>
@@ -127,14 +127,14 @@
         methods: {
 
             getImgUrl(index) {
-                
+
                 return this.image[index];
             }
 
         },
 
         beforeMount() {
-            
+
             document.title = "Tecnomajestic | " + this.title;
 
         }

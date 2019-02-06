@@ -1,13 +1,13 @@
 <template>
 
     <div id="inicio">
-        <section id="hero" class="hero is-relative bg-cover is-fullheight is-bold" 
+        <section id="hero" class="hero is-relative bg-cover is-fullheight is-bold"
         :style="{ backgroundImage: 'url(' + image[0] + ')' }">
             <div class="hero-body layer">
                 <div class="container">
-                    <h1 class="title for-dark-title is-2">Section</h1>
+                    <h1 class="title for-dark-title is-2">Innovando las Consultorías Tecnológicas</h1>
                     <h2 class="subtitle for-dark-subtitle is-3">
-                        A simple container to divide your page into sections, like the one you're currently reading
+                        Consultorías y desarrollo web. Implementación en tiempo récord.
                     </h2>
                 </div>
                 <span class="icon is-large donwArrow-icon">
@@ -25,7 +25,7 @@
                 <div class="container">
                     <h1 class="title for-orange-title is-2">Nuestra Historia</h1>
                     <h2 class="subtitle for-orange-subtitle is-4">
-                        A simple container to divide your page into sections, like the one you're currently reading
+                        Somos una empresa fundada en el año 2018. Estamos orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.
                     </h2>
                 </div>
             </div>
@@ -35,15 +35,17 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h1 class="title for-white has-text-centered">Subtitulo de la seccion</h1>
-                        <p class="is-size-5 has-text-justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut. </p>
+                        <h1 class="title for-white has-text-centered">Nuestro equipo de trabajo</h1>
+                        <p class="is-size-5 has-text-justified">Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos,  estamos orgullosos de nuestra misión</p>
                     </div>
                 </div>
                 <div class="columns section is-centered is-vcentered">
                     <div class="column">
-                        <h1 class="title for-white">Otro subtitulo de la seccion</h1>
-                        <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
-                        <p class="is-size-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maxime, enim dignissimos facere inventore consectetur eum, saepe sit quae ratione excepturi est sint vero omnis nulla ut.</p>
+                        <!-- <h1 class="title for-white">Misión</h1> -->
+                        <p class="is-size-5">Brindaremos soluciones modernas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7.</p>
+                        <br>
+                        <!-- <h1 class="title for-white">Visión</h1> -->
+                        <p class="is-size-5 mt-1">Tenemos la convicción de ser la mejor opción para consultorías en el área tecnológica y el desarrollo de soluciones en sistemas de información sofisticados adecuados a sus necesidades, seguros y confiables.</p>
                     </div>
                     <div class="column has-text-centered">
                         <img :src="getImgUrl(1)" alt="Grupo de personas" height="320" width="320">
@@ -52,13 +54,13 @@
             </div>
         </section>
 
-        <section class="hero is-medium has-text-centered is-bold bg-cover" 
+        <section class="hero is-medium has-text-centered is-bold bg-cover"
             :style="{ backgroundImage: 'url(' + image[2] + ')' }">
             <div class="hero-body grey-layer">
                 <div class="container">
                     <h1 class="title for-dark-title is-2">Servicios que ofrecemos</h1>
                     <h2 class="subtitle for-dark-subtitle is-4">
-                        A simple container to divide your page into sections, like the one you're currently reading
+                        Integramos la implementación de Sistemas de Información bajo diversas tecnologías orientadas web, diseñando e implementando tanto en la nube como en infraestructura privada.
                     </h2>
                 </div>
             </div>
@@ -73,8 +75,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Servicio</h1>
-                                <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                                <h1 class="title for-white">Implementación y Hosting</h1>
+                                <p class="is-size-5">Especializados en plataformas de hosting remotas o privadas del cliente.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -85,8 +87,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Servicio</h1>
-                                <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                                <h1 class="title for-white">Desarrollo de Apps Web y Móviles</h1>
+                                <p class="is-size-5">Plataformas web o móviles, con las tecnologías más innovadoras y modernas.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -99,8 +101,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(5)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Servicio</h1>
-                                <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                                <h1 class="title for-white">Consultorías Tecnológicas</h1>
+                                <p class="is-size-5">Grupo especializado en ofrecerte la mejor solución para tus necesidades</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -111,8 +113,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(6)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Servicio</h1>
-                                <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quos reiciendis.</p>
+                                <h1 class="title for-white">Plataformas de código abierto</h1>
+                                <p class="is-size-5">ERP, CMS, e-commerce y CMS. Data Warehouse e Inteligencia de Negocios.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -123,13 +125,13 @@
             </div>
         </section>
 
-        <section class="hero is-medium has-text-centered is-bold bg-cover" 
+        <section class="hero is-medium has-text-centered is-bold bg-cover"
             :style="{ backgroundImage: 'url(' + image[7] + ')' }">
             <div class="hero-body grey-layer">
                 <div class="container">
-                    <h1 class="title for-dark-title is-2">Contactanos</h1>
+                    <h1 class="title for-dark-title is-2">Contáctanos</h1>
                     <h2 class="subtitle for-dark-subtitle is-4">
-                        A simple container to divide your page into sections, like the one you're currently reading
+                        ¿Tienes alguna duda? ¡Comunícate con nosotros!
                     </h2>
                 </div>
             </div>
@@ -170,7 +172,7 @@
                     "../img/vector/design-vector.jpeg",
                     "../img/vector/dev-vector.jpeg",
                     "../img/background/home-contact.jpeg",
-                    
+
                 ]
 
             }
@@ -179,14 +181,14 @@
         methods: {
 
             getImgUrl(index) {
-                
+
                 return this.image[index];
             }
 
         },
 
         beforeMount() {
-            
+
             document.title = "Tecnomajestic | " + this.title;
 
         }
@@ -205,7 +207,7 @@
     }
 
     .is-relative {
-        
+
         position: relative;
 
     }
@@ -240,7 +242,7 @@
 
         color: gray;
 
-    } 
+    }
 
     .fa-chevron-down:hover {
 
@@ -309,7 +311,7 @@
     .is-purple{
 
         background-color: #7954F7;
-        
+
     }
 
     .for-purple {
@@ -319,7 +321,7 @@
     .for-white {
         color: #616161;
     }
-    
+
     .for-dark-title {
         color: #e8e8e8;
     }
@@ -331,11 +333,11 @@
     .mt-1 {
         margin-top: 1rem;
     }
-    
+
     .mt-2 {
         margin-top: 1.5rem;
     }
-    
+
     .mt-3 {
         margin-top: 3rem;
     }
