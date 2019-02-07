@@ -25,27 +25,25 @@
                 <div class="container">
                     <h1 class="title for-orange-title is-2">Nuestra Historia</h1>
                     <h2 class="subtitle for-orange-subtitle is-4">
-                        Somos una empresa fundada en el año 2018. Estamos orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.
+                        Somos una Joven empresa orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.
                     </h2>
                 </div>
             </div>
         </section>
 
-        <section class="section is-medium">
+        <section class="section">
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h1 class="title for-white has-text-centered">Nuestro equipo de trabajo</h1>
+                        <h1 class="title for-white has-text-centered">Nuestro Equipo de Trabajo</h1>
                         <p class="is-size-5 has-text-justified">Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos,  estamos orgullosos de nuestra misión</p>
                     </div>
                 </div>
-                <div class="columns section is-centered is-vcentered">
+                <div class="columns mt-3 is-centered is-vcentered">
                     <div class="column">
-                        <!-- <h1 class="title for-white">Misión</h1> -->
-                        <p class="is-size-5">Brindaremos soluciones modernas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7.</p>
-                        <br>
-                        <!-- <h1 class="title for-white">Visión</h1> -->
-                        <p class="is-size-5 mt-1">Tenemos la convicción de ser la mejor opción para consultorías en el área tecnológica y el desarrollo de soluciones en sistemas de información sofisticados adecuados a sus necesidades, seguros y confiables.</p>
+                        <h1 class="title for-white">Soluciones Modernas</h1>
+                        <p class="is-size-5 has-text-justified">Desarrollamos soluciones prácticas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7.</p>
+                        <p class="is-size-5 mt-2 has-text-justified">Tenemos la convicción de ser la mejor opción para consultorías en el área tecnológica y el desarrollo de soluciones en sistemas de información sofisticados adecuados a sus necesidades, seguros y confiables.</p>
                     </div>
                     <div class="column has-text-centered">
                         <img :src="getImgUrl(1)" alt="Grupo de personas" height="320" width="320">
@@ -66,7 +64,7 @@
             </div>
         </section>
 
-        <section class="section is-medium">
+        <section class="section">
             <div class="container has-text-centered">
                 <div class="">
                     <div class="columns">
@@ -87,8 +85,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Desarrollo de Apps Web y Móviles</h1>
-                                <p class="is-size-5">Plataformas web o móviles, con las tecnologías más innovadoras y modernas.</p>
+                                <h1 class="title for-white">Desarrollo de Apps Web</h1>
+                                <p class="is-size-5">Plataformas web, con las tecnologías más innovadoras y modernas.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -113,8 +111,34 @@
                                 <div class="section">
                                     <img :src="getImgUrl(6)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Plataformas de código abierto</h1>
+                                <h1 class="title for-white">Open Source</h1>
                                 <p class="is-size-5">ERP, CMS, e-commerce y CMS. Data Warehouse e Inteligencia de Negocios.</p>
+                                <div class="section">
+                                    <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="box">
+                                <div class="section">
+                                    <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140">
+                                </div>
+                                <h1 class="title for-white">Implementación y Hosting</h1>
+                                <p class="is-size-5">Especializados en plataformas de hosting remotas o privadas del cliente.</p>
+                                <div class="section">
+                                    <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="section">
+                                    <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
+                                </div>
+                                <h1 class="title for-white">Desarrollo de Apps Web</h1>
+                                <p class="is-size-5">Plataformas web, con las tecnologías más innovadoras y modernas.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -327,7 +351,7 @@
     }
 
     .for-dark-subtitle {
-        color: #d3d3d3;
+        color: #dfdfdf;
     }
 
     .mt-1 {

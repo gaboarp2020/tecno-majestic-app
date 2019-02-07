@@ -1828,6 +1828,102 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({//
 });
 
@@ -2004,6 +2100,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2385,6 +2495,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2417,6 +2551,30 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2647,7 +2805,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".hero[data-v-6199b57d] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: left;\n  position: relative;\n  margin-top: 52px;\n}", ""]);
+exports.push([module.i, ".hero[data-v-6199b57d] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: left;\n  position: relative;\n  margin-top: 52px;\n}\n.white-box[data-v-6199b57d] {\n  min-height: 580px;\n}", ""]);
 
 // exports
 
@@ -2666,7 +2824,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -2685,7 +2843,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #d3d3d3;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
+exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #dfdfdf;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
 
 // exports
 
@@ -4051,11 +4209,167 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("footer", { staticClass: "footer is-blue" }, [
-      _c("div", { staticClass: "content has-text-centered" }, [
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("section", {}, [
-              _c("div", { staticClass: "container has-text-left" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "content has-text-centered" }, [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column" }, [
+              _c("div", { staticClass: "has-text-left" }, [
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Facebook")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-twitter" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Twitter")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-instagram" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Instagram")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("LinkedIn")
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column" }, [
+              _c("div", { staticClass: "has-text-left" }, [
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Facebook")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-twitter" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Twitter")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-instagram" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Instagram")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("LinkedIn")
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column" }, [
+              _c("div", { staticClass: "has-text-left" }, [
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Facebook")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-twitter" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Twitter")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-instagram" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("Instagram")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("span", { staticClass: "icon" }, [
+                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
+                    ]),
+                    _vm._v(" "),
+                    _c("strong", { staticClass: "for-blue" }, [
+                      _vm._v("LinkedIn")
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column" }, [
+              _c("div", { staticClass: "has-text-left" }, [
                 _c("p", [
                   _c("a", { attrs: { href: "#" } }, [
                     _c("span", { staticClass: "icon" }, [
@@ -4105,13 +4419,13 @@ var staticRenderFns = [
                 ])
               ])
             ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "for-blue" }, [
+            _vm._v(
+              "\n                Consultorías Tecnológicas por TecnoMajestic, C.A. | Caracas, Venezuela | Koodev Developers. © 2019 Todos los derechos reservados.\n            "
+            )
           ])
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "for-blue" }, [
-          _vm._v(
-            "\n            Consultorías Tecnológicas por TecnoMajestic, C.A. | Caracas, Venezuela | Koodev Developers. © 2019 Todos los derechos reservados.\n        "
-          )
         ])
       ])
     ])
@@ -4240,9 +4554,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("a", { staticClass: "navbar-item", attrs: { href: "/" } }, [
-      _c("img", {
-        attrs: { src: "img/logo13.png", width: "118px", height: "28px" }
-      })
+      _c("img", { attrs: { src: "img/logo.png", width: "118", height: "28" } })
     ])
   }
 ]
@@ -4604,39 +4916,37 @@ var render = function() {
       [_vm._m(0)]
     ),
     _vm._v(" "),
-    _c("section", { staticClass: "section is-medium" }, [
+    _c("section", { staticClass: "section" }, [
       _c("div", { staticClass: "container" }, [
         _vm._m(1),
         _vm._v(" "),
-        _c("div", { staticClass: "section" }, [
-          _c("div", { staticClass: "columns is-vcentered" }, [
-            _c("div", { staticClass: "column has-text-centered mt-3" }, [
-              _c("img", {
-                attrs: {
-                  src: _vm.getImgUrl(1),
-                  alt: "Grupo de personas",
-                  height: "600",
-                  width: "400"
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _vm._m(2)
+        _c("div", { staticClass: "columns is-vcentered" }, [
+          _c("div", { staticClass: "column has-text-centered mt-3" }, [
+            _c("img", {
+              attrs: {
+                src: _vm.getImgUrl(1),
+                alt: "Grupo de personas",
+                height: "600",
+                width: "400"
+              }
+            })
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "columns is-vcentered" }, [
-            _vm._m(3),
-            _vm._v(" "),
-            _c("div", { staticClass: "column has-text-centered mt-3" }, [
-              _c("img", {
-                attrs: {
-                  src: _vm.getImgUrl(2),
-                  alt: "Vision",
-                  height: "600",
-                  width: "400"
-                }
-              })
-            ])
+          _vm._m(2)
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "columns is-vcentered" }, [
+          _vm._m(3),
+          _vm._v(" "),
+          _c("div", { staticClass: "column has-text-centered mt-3" }, [
+            _c("img", {
+              attrs: {
+                src: _vm.getImgUrl(2),
+                alt: "Vision",
+                height: "600",
+                width: "400"
+              }
+            })
           ])
         ])
       ])
@@ -4644,7 +4954,7 @@ var render = function() {
     _vm._v(" "),
     _vm._m(4),
     _vm._v(" "),
-    _c("section", { staticClass: "section is-medium" }, [
+    _c("section", { staticClass: "section" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "columns" }, [
           _c("div", { staticClass: "column has-text-centered section" }, [
@@ -4675,10 +4985,8 @@ var render = function() {
             ]),
             _vm._v(" "),
             _vm._m(6)
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "columns" }, [
+          ]),
+          _vm._v(" "),
           _c("div", { staticClass: "column has-text-centered section" }, [
             _c("div", { staticClass: "section" }, [
               _c("img", {
@@ -4692,6 +5000,38 @@ var render = function() {
             ]),
             _vm._v(" "),
             _vm._m(7)
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column has-text-centered section" }, [
+            _c("div", { staticClass: "section" }, [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(3),
+                  alt: "Responsabilidad",
+                  height: "100",
+                  width: "100"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(8)
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column has-text-centered section" }, [
+            _c("div", { staticClass: "section" }, [
+              _c("img", {
+                attrs: {
+                  src: _vm.getImgUrl(4),
+                  alt: "Excelencia",
+                  height: "100",
+                  width: "100"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(9)
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column  has-text-centered section" }, [
@@ -4706,7 +5046,7 @@ var render = function() {
               })
             ]),
             _vm._v(" "),
-            _vm._m(8)
+            _vm._m(10)
           ])
         ])
       ])
@@ -4757,7 +5097,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "column" }, [
       _c("h1", { staticClass: "title for-white" }, [_vm._v("Misión")]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
           "Brindar soluciones modernas, bajo ambiente web o móvil y diseñadas para asegurar un funcionamiento óptimo, brindando confianza y seguridad a cualquier negocio en América."
         )
@@ -4773,7 +5113,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "column" }, [
       _c("h1", { staticClass: "title for-white" }, [_vm._v("Visión")]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
           "Ser la mejor opción para la consultoría y el desarrollo de soluciones en sistemas de información adecuados a sus necesidades, seguros y confiables."
         )
@@ -4850,6 +5190,34 @@ var staticRenderFns = [
         _vm._v(
           "Contacto permanente con el cliente involucrandolo en cada fase del desarrollo."
         )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white is-size-4" }, [
+        _vm._v("Responsabilidad")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v("Soluciones dentro del tiempo requerido.")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white is-size-4" }, [
+        _vm._v("Excelencia")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v("Servicio de calidad, por profesionales.")
       ])
     ])
   },
@@ -5026,11 +5394,11 @@ var render = function() {
     _vm._v(" "),
     _vm._m(1),
     _vm._v(" "),
-    _c("section", { staticClass: "section is-medium" }, [
+    _c("section", { staticClass: "section" }, [
       _c("div", { staticClass: "container" }, [
         _vm._m(2),
         _vm._v(" "),
-        _c("div", { staticClass: "columns section is-centered is-vcentered" }, [
+        _c("div", { staticClass: "columns mt-3 is-centered is-vcentered" }, [
           _vm._m(3),
           _vm._v(" "),
           _c("div", { staticClass: "column has-text-centered" }, [
@@ -5056,7 +5424,7 @@ var render = function() {
       [_vm._m(4)]
     ),
     _vm._v(" "),
-    _c("section", { staticClass: "section is-medium" }, [
+    _c("section", { staticClass: "section" }, [
       _c("div", { staticClass: "container has-text-centered" }, [
         _c("div", {}, [
           _c("div", { staticClass: "columns" }, [
@@ -5101,12 +5469,12 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Desarrollo de Apps Web y Móviles")
+                  _vm._v("Desarrollo de Apps Web")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "Plataformas web o móviles, con las tecnologías más innovadoras y modernas."
+                    "Plataformas web, con las tecnologías más innovadoras y modernas."
                   )
                 ]),
                 _vm._v(" "),
@@ -5157,7 +5525,7 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Plataformas de código abierto")
+                  _vm._v("Open Source")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
@@ -5167,6 +5535,62 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _vm._m(8)
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column" }, [
+              _c("div", { staticClass: "box" }, [
+                _c("div", { staticClass: "section" }, [
+                  _c("img", {
+                    attrs: {
+                      src: _vm.getImgUrl(3),
+                      alt: "Servicio Icono",
+                      height: "140",
+                      width: "140"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("h1", { staticClass: "title for-white" }, [
+                  _vm._v("Implementación y Hosting")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "is-size-5" }, [
+                  _vm._v(
+                    "Especializados en plataformas de hosting remotas o privadas del cliente."
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(9)
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column" }, [
+              _c("div", { staticClass: "box" }, [
+                _c("div", { staticClass: "section" }, [
+                  _c("img", {
+                    attrs: {
+                      src: _vm.getImgUrl(4),
+                      alt: "Servicio Icono",
+                      height: "140",
+                      width: "140"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("h1", { staticClass: "title for-white" }, [
+                  _vm._v("Desarrollo de Apps Web")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "is-size-5" }, [
+                  _vm._v(
+                    "Plataformas web, con las tecnologías más innovadoras y modernas."
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(10)
               ])
             ])
           ])
@@ -5180,7 +5604,7 @@ var render = function() {
         staticClass: "hero is-medium has-text-centered is-bold bg-cover",
         style: { backgroundImage: "url(" + _vm.image[7] + ")" }
       },
-      [_vm._m(9)]
+      [_vm._m(11)]
     ),
     _vm._v(" "),
     _c("section", { staticClass: "section" }, [
@@ -5228,7 +5652,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h2", { staticClass: "subtitle for-orange-subtitle is-4" }, [
             _vm._v(
-              "\n                    Somos una empresa fundada en el año 2018. Estamos orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.\n                "
+              "\n                    Somos una Joven empresa orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.\n                "
             )
           ])
         ])
@@ -5242,7 +5666,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "columns" }, [
       _c("div", { staticClass: "column" }, [
         _c("h1", { staticClass: "title for-white has-text-centered" }, [
-          _vm._v("Nuestro equipo de trabajo")
+          _vm._v("Nuestro Equipo de Trabajo")
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "is-size-5 has-text-justified" }, [
@@ -5258,15 +5682,17 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column" }, [
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("h1", { staticClass: "title for-white" }, [
+        _vm._v("Soluciones Modernas")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
-          "Brindaremos soluciones modernas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7."
+          "Desarrollamos soluciones prácticas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7."
         )
       ]),
       _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-2 has-text-justified" }, [
         _vm._v(
           "Tenemos la convicción de ser la mejor opción para consultorías en el área tecnológica y el desarrollo de soluciones en sistemas de información sofisticados adecuados a sus necesidades, seguros y confiables."
         )
@@ -5289,6 +5715,36 @@ var staticRenderFns = [
           )
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section" }, [
+      _c(
+        "a",
+        {
+          staticClass: "has-text-weight-semibold is-size-5",
+          attrs: { href: "/#/servicios" }
+        },
+        [_vm._v("Más información")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "section" }, [
+      _c(
+        "a",
+        {
+          staticClass: "has-text-weight-semibold is-size-5",
+          attrs: { href: "/#/servicios" }
+        },
+        [_vm._v("Más información")]
+      )
     ])
   },
   function() {
@@ -5402,9 +5858,9 @@ var render = function() {
       [_vm._m(0)]
     ),
     _vm._v(" "),
-    _c("section", { staticClass: "section is-medium" }, [
+    _c("section", { staticClass: "section" }, [
       _c("div", { attrs: { id: "vueapp" } }, [
-        _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "container white-box" }, [
           _c("nav", { staticClass: "bd-tabs" }, [
             _c("div", { staticClass: "tabs is-centered" }, [
               _c("ul", [
@@ -5501,7 +5957,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns section" }, [
+                _c("div", { staticClass: "columns section is-vcentered" }, [
                   _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5530,7 +5986,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns section" }, [
+                _c("div", { staticClass: "columns section is-vcentered" }, [
                   _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5559,7 +6015,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns section" }, [
+                _c("div", { staticClass: "columns section is-vcentered" }, [
                   _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5588,7 +6044,7 @@ var render = function() {
                 ]
               },
               [
-                _c("div", { staticClass: "columns section" }, [
+                _c("div", { staticClass: "columns section is-vcentered" }, [
                   _c("div", { staticClass: "column has-text-centered mt-1" }, [
                     _c("img", {
                       attrs: {
@@ -5600,6 +6056,64 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _vm._m(4)
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.tabsel == "service5",
+                    expression: "tabsel == 'service5'"
+                  }
+                ]
+              },
+              [
+                _c("div", { staticClass: "columns section is-vcentered" }, [
+                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
+                    _c("img", {
+                      attrs: {
+                        src: _vm.getImgUrl(2),
+                        alt: "service",
+                        srcset: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(5)
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                directives: [
+                  {
+                    name: "show",
+                    rawName: "v-show",
+                    value: _vm.tabsel == "service6",
+                    expression: "tabsel == 'service6'"
+                  }
+                ]
+              },
+              [
+                _c("div", { staticClass: "columns section is-vcentered" }, [
+                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
+                    _c("img", {
+                      attrs: {
+                        src: _vm.getImgUrl(3),
+                        alt: "service",
+                        srcset: ""
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(6)
                 ])
               ]
             )
@@ -5632,7 +6146,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column" }, [
+    return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
         _vm._v("Implementación y Hosting")
       ]),
@@ -5654,9 +6168,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column" }, [
+    return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Desarrollo de Aplicaciones Web")
+        _vm._v("Desarrollo de Webapps")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
@@ -5676,7 +6190,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column" }, [
+    return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
         _vm._v("Consultorías Tecnológicas")
       ]),
@@ -5698,9 +6212,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column" }, [
+    return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Plataformas de código abierto")
+        _vm._v("Open Source")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
@@ -5712,6 +6226,50 @@ var staticRenderFns = [
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
           "Impulsamos tu competitividad ayudándote a reaccionar a los cambios del mercado. Satisfacemos todas tus necesidades que permitan integrar el código abierto en tus proyectos."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column has-text-justified" }, [
+      _c("h1", { staticClass: "title for-white mt-1" }, [
+        _vm._v("Desarrollo de Webapps")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Las aplicaciones web son muy populares actualmente y compatibles con cualquier sistema operativo. Su bajo o nulo mantenimiento las convierten en una muy buena opción para usuarios finales."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Si piensa en desarrollar alguna webapp nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column has-text-justified" }, [
+      _c("h1", { staticClass: "title for-white mt-1" }, [
+        _vm._v("Consultorías Tecnológicas")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v(
+          "Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5 mt-1" }, [
+        _vm._v(
+          "Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios."
         )
       ])
     ])
@@ -20670,8 +21228,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
