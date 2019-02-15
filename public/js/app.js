@@ -2224,7 +2224,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       title: "Nosotros",
-      image: ["../img/background/home-about.jpg", "../img/storage/people-work.jpeg", "../img/storage/vision.jpeg", "../img/vector/alarm-clock.png", "../img/vector/star.png", "../img/vector/chat.png", "../img/vector/winners-ribbon.png"]
+      image: ["../img/background/home-about.jpg", "../img/storage/people-work.jpeg", "../img/storage/vision.jpeg", "../img/vector/alarm-clock.png", "../img/vector/star.png", "../img/vector/chat.png", "../img/vector/winners-ribbon.png", "../img/vector/locked.png", "../img/vector/protect.png"]
     };
   },
   methods: {
@@ -2527,7 +2527,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       title: "Inicio",
-      image: ["../img/background/home-hero.jpeg", "../img/storage/people-group.png", "../img/background/home-services.jpeg", "../img/vector/cloud-vector.jpeg", "../img/vector/code-vector.jpeg", "../img/vector/design-vector.jpeg", "../img/vector/dev-vector.jpeg", "../img/background/home-contact.jpeg"]
+      image: ["../img/background/home-hero.jpeg", "../img/storage/people-group.png", "../img/background/home-services.jpeg", "../img/vector/cloud-vector.jpeg", "../img/vector/code-vector.jpeg", "../img/vector/design-vector.jpeg", "../img/vector/dev-vector.jpeg", "../img/background/home-contact.jpeg", "../img/vector/mobile-app.png", "../img/vector/web-design.png"]
     };
   },
   methods: {
@@ -4963,8 +4963,8 @@ var render = function() {
                 attrs: {
                   src: _vm.getImgUrl(3),
                   alt: "Responsabilidad",
-                  height: "100",
-                  width: "100"
+                  height: "80",
+                  width: "80"
                 }
               })
             ]),
@@ -4978,8 +4978,8 @@ var render = function() {
                 attrs: {
                   src: _vm.getImgUrl(4),
                   alt: "Excelencia",
-                  height: "100",
-                  width: "100"
+                  height: "80",
+                  width: "80"
                 }
               })
             ]),
@@ -4993,8 +4993,8 @@ var render = function() {
                 attrs: {
                   src: _vm.getImgUrl(5),
                   alt: "Comunicacion",
-                  height: "100",
-                  width: "100"
+                  height: "80",
+                  width: "80"
                 }
               })
             ]),
@@ -5004,14 +5004,14 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column has-text-centered section" }, [
+          _c("div", { staticClass: "column  has-text-centered section" }, [
             _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
-                  src: _vm.getImgUrl(3),
-                  alt: "Responsabilidad",
-                  height: "100",
-                  width: "100"
+                  src: _vm.getImgUrl(6),
+                  alt: "Competitividad",
+                  height: "80",
+                  width: "80"
                 }
               })
             ]),
@@ -5023,10 +5023,10 @@ var render = function() {
             _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
-                  src: _vm.getImgUrl(4),
-                  alt: "Excelencia",
-                  height: "100",
-                  width: "100"
+                  src: _vm.getImgUrl(7),
+                  alt: "Integridad",
+                  height: "80",
+                  width: "80"
                 }
               })
             ]),
@@ -5034,14 +5034,14 @@ var render = function() {
             _vm._m(9)
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "column  has-text-centered section" }, [
+          _c("div", { staticClass: "column has-text-centered section" }, [
             _c("div", { staticClass: "section" }, [
               _c("img", {
                 attrs: {
-                  src: _vm.getImgUrl(6),
-                  alt: "Competitividad",
-                  height: "100",
-                  width: "100"
+                  src: _vm.getImgUrl(8),
+                  alt: "Excelencia",
+                  height: "80",
+                  width: "80"
                 }
               })
             ]),
@@ -5199,11 +5199,25 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("h1", { staticClass: "title for-white is-size-4" }, [
-        _vm._v("Responsabilidad")
+        _vm._v("Competitividad ")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
-        _vm._v("Soluciones dentro del tiempo requerido.")
+        _vm._v("Tus soluciones a precios competitivos en el mercado.")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "title for-white is-size-4" }, [
+        _vm._v("Integridad")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "is-size-5" }, [
+        _vm._v("Auténticos y honestos con nuestros clientes.")
       ])
     ])
   },
@@ -5218,20 +5232,6 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v("Servicio de calidad, por profesionales.")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", { staticClass: "title for-white is-size-4" }, [
-        _vm._v("Competitividad ")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
-        _vm._v("Tus soluciones a precios competitivos en el mercado.")
       ])
     ])
   }
@@ -5545,7 +5545,7 @@ var render = function() {
                 _c("div", { staticClass: "section" }, [
                   _c("img", {
                     attrs: {
-                      src: _vm.getImgUrl(3),
+                      src: _vm.getImgUrl(8),
                       alt: "Servicio Icono",
                       height: "140",
                       width: "140"
@@ -5572,7 +5572,7 @@ var render = function() {
                 _c("div", { staticClass: "section" }, [
                   _c("img", {
                     attrs: {
-                      src: _vm.getImgUrl(4),
+                      src: _vm.getImgUrl(9),
                       alt: "Servicio Icono",
                       height: "140",
                       width: "140"

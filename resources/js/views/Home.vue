@@ -123,7 +123,7 @@
                         <div class="column">
                             <div class="box">
                                 <div class="section">
-                                    <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140">
+                                    <img :src="getImgUrl(8)" alt="Servicio Icono" height="140" width="140">
                                 </div>
                                 <h1 class="title for-white">Implementación y Hosting</h1>
                                 <p class="is-size-5">Especializados en plataformas de hosting remotas o privadas del cliente.</p>
@@ -135,7 +135,7 @@
                         <div class="column">
                             <div class="box">
                                 <div class="section">
-                                    <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
+                                    <img :src="getImgUrl(9)" alt="Servicio Icono" height="140" width="140">
                                 </div>
                                 <h1 class="title for-white">Desarrollo de Apps Web</h1>
                                 <p class="is-size-5">Plataformas web, con las tecnologías más innovadoras y modernas.</p>
@@ -196,6 +196,8 @@
                     "../img/vector/design-vector.jpeg",
                     "../img/vector/dev-vector.jpeg",
                     "../img/background/home-contact.jpeg",
+                    "../img/vector/mobile-app.png",
+                    "../img/vector/web-design.png",
 
                 ]
 

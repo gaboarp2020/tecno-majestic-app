@@ -58,7 +58,7 @@
                 <div class="columns">
                     <div class="column has-text-centered section">
                         <div class="section">
-                            <img :src="getImgUrl(3)" alt="Responsabilidad"  height="100" width="100">
+                            <img :src="getImgUrl(3)" alt="Responsabilidad"  height="80" width="80">
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4">Responsabilidad</h1>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="column has-text-centered section">
                         <div class="section">
-                            <img :src="getImgUrl(4)"  alt="Excelencia" height="100" width="100">
+                            <img :src="getImgUrl(4)"  alt="Excelencia" height="80" width="80">
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4">Excelencia</h1>
@@ -76,7 +76,7 @@
                     </div>
                     <div class="column has-text-centered section">
                         <div class="section">
-                            <img :src="getImgUrl(5)" alt="Comunicacion"  height="100" width="100">
+                            <img :src="getImgUrl(5)" alt="Comunicacion"  height="80" width="80">
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4 ">Comunicacion</h1>
@@ -85,31 +85,31 @@
                         </div>
                 </div>
                 <div class="columns">
-                    <div class="column has-text-centered section">
-                        <div class="section">
-                            <img :src="getImgUrl(3)" alt="Responsabilidad"  height="100" width="100">
-                        </div>
-                        <div>
-                            <h1 class="title for-white is-size-4">Responsabilidad</h1>
-                            <p class="is-size-5">Soluciones dentro del tiempo requerido.</p>
-                        </div>
-                    </div>
-                    <div class="column has-text-centered section">
-                        <div class="section">
-                            <img :src="getImgUrl(4)"  alt="Excelencia" height="100" width="100">
-                        </div>
-                        <div>
-                            <h1 class="title for-white is-size-4">Excelencia</h1>
-                            <p class="is-size-5">Servicio de calidad, por profesionales.</p>
-                        </div>
-                    </div>
                     <div class="column  has-text-centered section">
                         <div class="section">
-                            <img :src="getImgUrl(6)" alt="Competitividad" height="100" width="100">
+                            <img :src="getImgUrl(6)" alt="Competitividad" height="80" width="80">
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4">Competitividad </h1>
                             <p class="is-size-5">Tus soluciones a precios competitivos en el mercado.</p>
+                        </div>
+                    </div>
+                    <div class="column has-text-centered section">
+                        <div class="section">
+                            <img :src="getImgUrl(7)" alt="Integridad"  height="80" width="80">
+                        </div>
+                        <div>
+                            <h1 class="title for-white is-size-4">Integridad</h1>
+                            <p class="is-size-5">Auténticos y honestos con nuestros clientes.</p>
+                        </div>
+                    </div>
+                    <div class="column has-text-centered section">
+                        <div class="section">
+                            <img :src="getImgUrl(8)"  alt="Excelencia" height="80" width="80">
+                        </div>
+                        <div>
+                            <h1 class="title for-white is-size-4">Excelencia</h1>
+                            <p class="is-size-5">Servicio de calidad, por profesionales.</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,9 @@
                     "../img/vector/alarm-clock.png",
                     "../img/vector/star.png",
                     "../img/vector/chat.png",
-                    "../img/vector/winners-ribbon.png"
+                    "../img/vector/winners-ribbon.png",
+                    "../img/vector/locked.png",
+                    "../img/vector/protect.png"
                 ]
             }
         },
