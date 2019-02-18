@@ -7,9 +7,11 @@
         <h1 class="title for-white">Formulario de contacto</h1>
 
         <form action="/contactMessages" method="POST" @submit.prevent="onSubmit"  @keydown="form.errors.clear($event.target.name)">
+
+            <input type="hidden" name="_token" :value="csrf">
                     
             <h2 class="subtitle for-white">
-                Información personal
+                Información Personal
             </h2>
 
             <div class="field mb-1">
@@ -35,9 +37,29 @@
                     <span class="help is-danger" v-if="form.errors.has('country')" v-text="form.errors.get('country')"></span>
                 </div>
             </div>
+                    
+            <h2 class="subtitle for-white">
+                Información de la Empresa
+            </h2>
+
+            <div class="field mb-1">
+                <div class="control">
+                    <label for="company" class="label">Empresa - <span class="opcional-label">opcional</span></label>
+                    <input type="text" id="company" name="company" :class="['is-hovered', 'input']" v-model="form.company">
+                    <span class="help is-danger" v-if="form.errors.has('company')" v-text="form.errors.get('company')"></span>
+                </div>
+            </div>
+
+            <div class="field mb-1">
+                <div class="control">
+                    <label for="business_sector" class="label">Rubro - <span class="opcional-label">opcional</span></label>
+                    <input type="text" id="business_sector" name="business_sector" :class="['is-hovered', 'input']" v-model="form.business_sector">
+                    <span class="help is-danger" v-if="form.errors.has('business_sector')" v-text="form.errors.get('business_sector')"></span>
+                </div>
+            </div>
 
             <h2 class="subtitle for-white">
-                Información del correo
+                Información del Correo
             </h2>
 
             <div class="field mb-1">
@@ -72,6 +94,11 @@
 
         </form>
 
+        <div :class="['notification', 'is-success', {'is-invisible': hasMessage}]">
+            <button @click="hiddenNotification" class="delete"></button>
+            <p class="for-green-title" >asdasda</p>
+        </div>
+
     </div>
 
 </template>
@@ -82,6 +109,8 @@
 
         data() {
             return {
+
+                csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
 
                 form: new Form({
 
@@ -97,6 +126,10 @@
 
                 }),
 
+                notification: '',
+
+                hasMessage: true,
+
             }
         },
 
@@ -104,9 +137,15 @@
             onSubmit() {
 
                 this.form.submit('post', '/api/contact')
-                    .then(data => console.log(data));
-
+                    .then(response => {
+                    this.notification = '¡Mensaje enviado! Gracias por contactarnos';
+                    this.hasMessage = false;
+                });
             },
+
+            hiddenNotification() {
+                this.hasMessage = true;
+            }
         },
 
     }
@@ -138,6 +177,15 @@
     .label {
         color: #616161;
         font-weight: 500;
+    }
+
+    .notification {
+        position:fixed;
+        width: 40%;
+        min-width: 280px;
+        bottom: 5%;
+        right: 5%;
+        z-index: 100;
     }
 
 </style>

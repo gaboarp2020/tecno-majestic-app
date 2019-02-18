@@ -80,7 +80,7 @@
                         </div>
                         <div>
                             <h1 class="title for-white is-size-4 ">Comunicacion</h1>
-                            <p class="is-size-5">Contacto permanente con el cliente involucrandolo en cada fase del desarrollo.</p>
+                            <p class="is-size-5">Constante comunicación con nuestros clientes.</p>
                         </div>
                         </div>
                 </div>
@@ -108,8 +108,8 @@
                             <img :src="getImgUrl(8)"  alt="Excelencia" height="80" width="80">
                         </div>
                         <div>
-                            <h1 class="title for-white is-size-4">Excelencia</h1>
-                            <p class="is-size-5">Servicio de calidad, por profesionales.</p>
+                            <h1 class="title for-white is-size-4">Pasión</h1>
+                            <p class="is-size-5">Amamos lo que hacemos para mejorar lo que ofrecemos.</p>
                         </div>
                     </div>
                 </div>

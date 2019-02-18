@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use Illuminate\Support\Facades\Mail;
+use App\Http\Controllers\Controller;
 
 class ContactsController extends Controller
 {
@@ -38,21 +40,43 @@ class ContactsController extends Controller
             'name' => 'required|string',
             'last_name' => 'required|string',
             'country' => 'nullable|string',
+            'company' => 'nullable|string',
+            'business_sector' => 'nullable|string',
             'email' => 'required|email',
-            'subject' => 'required',
-            'content' => 'required|max:255'
+            'subject' => 'required|min:3',
+            'content' => 'required|min:10|max:255'
         ]);
 
         Contact::forceCreate([
             'name' => request('name'),
             'last_name' => request('last_name'),
             'country' => request('country'),
+            'company' => request('company'),
+            'business_sector' => request('business_sector'),
             'email' => request('email'),
             'subject' => request('subject'),
             'content' => request('content'),
         ]);
 
-        return ['message' => '¡Mensaje enviado!'];
+        $data = array(
+            'name' => request('name'),
+            'last_name' => request('last_name'),
+            'country' => request('country'),
+            'company' => request('company'),
+            'business_sector' => request('business_sector'),
+            'email' => request('email'),
+            'subject' => request('subject'),
+            'content' => request('content'),
+        );
+
+        Mail::send('emails.contact', $data, function ($message) use ($data) {
+            $message->from($data['email']);
+            $message->to('info@tecnomajestic.com');
+            $message->subject($data['subject']);
+        });
+
+        //return ['message' => '¡Mensaje enviado! Gracias por contactarnos'];
+
     }
 
     /**

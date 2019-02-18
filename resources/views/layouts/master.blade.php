@@ -12,15 +12,7 @@
     </head>
     <body>
 
-        <div id="app">
-
-            <b-navbar></b-navbar>
-
-            <router-view></router-view>
-
-            <b-footer></b-footer>
-
-        </div>
+        @yield('content')
 
         <script src="/js/app.js"></script>
     </body>

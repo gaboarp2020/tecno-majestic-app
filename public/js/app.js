@@ -1850,80 +1850,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({//
 });
 
@@ -2068,23 +1994,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
       form: new Form({
         name: '',
         last_name: '',
         email: '',
         subject: '',
         content: ''
-      })
+      }),
+      notification: '',
+      hasMessage: true
     };
   },
   methods: {
     onSubmit: function onSubmit() {
-      this.form.submit('post', '/api/contact').then(function (data) {
-        return console.log(data);
+      var _this = this;
+
+      this.form.submit('post', '/api/contact').then(function (response) {
+        _this.notification = '¡Mensaje enviado! Gracias por contactarnos';
+        _this.hasMessage = false;
       });
+    },
+    hiddenNotification: function hiddenNotification() {
+      this.hasMessage = true;
     }
   }
 });
@@ -2231,49 +2193,6 @@ __webpack_require__.r(__webpack_exports__);
     getImgUrl: function getImgUrl(index) {
       return this.image[index];
     }
-  },
-  beforeMount: function beforeMount() {
-    document.title = "Tecnomajestic | " + this.title;
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Blog.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      title: "Blog",
-      image: "../img/background/construction.jpeg"
-    };
   },
   beforeMount: function beforeMount() {
     document.title = "Tecnomajestic | " + this.title;
@@ -2652,30 +2571,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2729,7 +2624,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".box-form {\n  margin: auto;\n  max-width: 768px;\n  padding: 2rem;\n  display: block;\n}\n.field:not(:last-child) {\n  margin-bottom: 20px;\n}\n.label:not(:last-child) {\n  margin-bottom: 4px;\n}\n.opcional-label {\n  color: gray;\n  font-style: italic;\n}\n.label {\n  color: #616161;\n  font-weight: 500;\n}", ""]);
+exports.push([module.i, ".box-form {\n  margin: auto;\n  max-width: 768px;\n  padding: 2rem;\n  display: block;\n}\n.field:not(:last-child) {\n  margin-bottom: 20px;\n}\n.label:not(:last-child) {\n  margin-bottom: 4px;\n}\n.opcional-label {\n  color: gray;\n  font-style: italic;\n}\n.label {\n  color: #616161;\n  font-weight: 500;\n}\n.notification {\n  position: fixed;\n  width: 40%;\n  min-width: 280px;\n  bottom: 5%;\n  right: 5%;\n  z-index: 100;\n}", ""]);
 
 // exports
 
@@ -2749,25 +2644,6 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, ".hero[data-v-2995bb7e] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: left;\n  position: relative;\n  margin-top: 52px;\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".hero[data-v-78b5237e] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: left;\n  position: relative;\n}\n.layer[data-v-78b5237e] {\n  background-color: rgba(248, 247, 216, 0.7);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.mb-2[data-v-78b5237e] {\n  margin-bottom: 1.5rem;\n}", ""]);
 
 // exports
 
@@ -2824,7 +2700,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n.footer {\r\n  padding: 3rem 1.5rem;\n}\n.columns {\r\n  margin: auto;\n}\r\n", ""]);
 
 // exports
 
@@ -2843,7 +2719,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(74, 74, 74, 0.5);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #dfdfdf;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
+exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(38, 38, 38, 0.57);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9db;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #dfdfdf;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
 
 // exports
 
@@ -3431,36 +3307,6 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/lib/loader.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./About.vue?vue&type=style&index=0&id=2995bb7e&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/About.vue?vue&type=style&index=0&id=2995bb7e&lang=scss&scoped=true&");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/lib/loader.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -4211,221 +4057,170 @@ var staticRenderFns = [
     return _c("footer", { staticClass: "footer is-blue" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "content has-text-centered" }, [
-          _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column" }, [
-              _c("div", { staticClass: "has-text-left" }, [
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Facebook")
+          _c(
+            "div",
+            { staticClass: "columns is-mobile is-multiline is-centered" },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "column is-one-quarter-desktop is-half-mobile has-text-left"
+                },
+                [
+                  _c(
+                    "p",
+                    { staticClass: "for-blue is-size-5 has-text-weight-bold" },
+                    [_vm._v("Mapa del Sitio")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#/nosotros" } }, [
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("Nosotros")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#/servicios" } }, [
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("Servicios")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#/contacto" } }, [
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("Contacto")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c(
+                      "a",
+                      { attrs: { href: "https://blog.tecnomajestic.com" } },
+                      [
+                        _c("strong", { staticClass: "for-blue is-size-6" }, [
+                          _vm._v("Blog")
+                        ])
+                      ]
+                    )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "column is-one-quarter-desktop is-half-mobile has-text-left"
+                },
+                [
+                  _c(
+                    "p",
+                    { staticClass: "for-blue is-size-5 has-text-weight-bold" },
+                    [_vm._v("Síguenos")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("span", { staticClass: "icon" }, [
+                        _c("i", { staticClass: "fa for-blue fa-facebook-f" })
+                      ]),
+                      _vm._v(" "),
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("Facebook")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("span", { staticClass: "icon" }, [
+                        _c("i", { staticClass: "fa for-blue fa-twitter" })
+                      ]),
+                      _vm._v(" "),
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("Twitter")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("span", { staticClass: "icon" }, [
+                        _c("i", { staticClass: "fa for-blue fa-instagram" })
+                      ]),
+                      _vm._v(" "),
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("Instagram")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _c("span", { staticClass: "icon" }, [
+                        _c("i", { staticClass: "fa for-blue fa-linkedin" })
+                      ]),
+                      _vm._v(" "),
+                      _c("strong", { staticClass: "for-blue is-size-6" }, [
+                        _vm._v("LinkedIn")
+                      ])
                     ])
                   ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-twitter" })
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "column is-full-mobile is-half-desktop has-text-left"
+                },
+                [
+                  _c(
+                    "p",
+                    { staticClass: "for-blue is-size-5 has-text-weight-bold" },
+                    [_vm._v("Contáctanos")]
+                  ),
+                  _vm._v(" "),
+                  _c("div", {}, [
+                    _c("p", { staticClass: "for-blue is-size-6" }, [
+                      _vm._v(
+                        "\n              Dirección: Av. Francisco Solano con calle Los Mangos Torre Charan Piso 3 Oficina 3-3\n              Sabana Grande Municipio Libertador\n              Caracas, Municipio Libertador, 1010\n              Venezuela\n            "
+                      )
                     ]),
                     _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Twitter")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-instagram" })
+                    _c("p", { staticClass: "for-blue is-size-6" }, [
+                      _vm._v("Correo: info@tecnomajestic.com")
                     ]),
                     _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Instagram")
+                    _c("p", { staticClass: "for-blue is-size-6" }, [
+                      _vm._v("Teléfono: +507 6616-5455")
                     ])
                   ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("LinkedIn")
-                    ])
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "column" }, [
-              _c("div", { staticClass: "has-text-left" }, [
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Facebook")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-twitter" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Twitter")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-instagram" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Instagram")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("LinkedIn")
-                    ])
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "column" }, [
-              _c("div", { staticClass: "has-text-left" }, [
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Facebook")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-twitter" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Twitter")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-instagram" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Instagram")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("LinkedIn")
-                    ])
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "column" }, [
-              _c("div", { staticClass: "has-text-left" }, [
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-facebook-f" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Facebook")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-twitter" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Twitter")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-instagram" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("Instagram")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("span", { staticClass: "icon" }, [
-                      _c("i", { staticClass: "fa for-blue fa-linkedin" })
-                    ]),
-                    _vm._v(" "),
-                    _c("strong", { staticClass: "for-blue" }, [
-                      _vm._v("LinkedIn")
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ]),
+                ]
+              )
+            ]
+          ),
           _vm._v(" "),
-          _c("p", { staticClass: "for-blue" }, [
-            _vm._v(
-              "\n                Consultorías Tecnológicas por TecnoMajestic, C.A. | Caracas, Venezuela | Koodev Developers. © 2019 Todos los derechos reservados.\n            "
-            )
-          ])
+          _c(
+            "div",
+            { staticClass: "has-text-centered is-size-6 for-blue mt-3" },
+            [
+              _c("p", [
+                _vm._v(
+                  "Consultorías Tecnológicas por TecnoMajestic, C.A. J-412132105 | Caracas, Venezuela | By Koodev Developers"
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("© 2019 Todos los derechos reservados")])
+            ]
+          )
         ])
       ])
     ])
@@ -4525,21 +4320,7 @@ var render = function() {
                 [_vm._v("Contacto")]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "navbar-item" },
-                [
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "button is-link is-outlined",
-                      attrs: { to: "/blog" }
-                    },
-                    [_vm._v("Blog")]
-                  )
-                ],
-                1
-              )
+              _vm._m(1)
             ],
             1
           )
@@ -4555,6 +4336,21 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("a", { staticClass: "navbar-item", attrs: { href: "/" } }, [
       _c("img", { attrs: { src: "img/logo.png", width: "118", height: "28" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "navbar-item" }, [
+      _c(
+        "a",
+        {
+          staticClass: "button is-link is-outlined",
+          attrs: { href: "https://blog.tecnomajestic.com" }
+        },
+        [_vm._v("Blog")]
+      )
     ])
   }
 ]
@@ -4599,8 +4395,13 @@ var render = function() {
         }
       },
       [
+        _c("input", {
+          attrs: { type: "hidden", name: "_token" },
+          domProps: { value: _vm.csrf }
+        }),
+        _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-white" }, [
-          _vm._v("\n            Información personal\n        ")
+          _vm._v("\n            Información Personal\n        ")
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "field mb-1" }, [
@@ -4725,7 +4526,89 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-white" }, [
-          _vm._v("\n            Información del correo\n        ")
+          _vm._v("\n            Información de la Empresa\n        ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "field mb-1" }, [
+          _c("div", { staticClass: "control" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.form.company,
+                  expression: "form.company"
+                }
+              ],
+              class: ["is-hovered", "input"],
+              attrs: { type: "text", id: "company", name: "company" },
+              domProps: { value: _vm.form.company },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.form, "company", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _vm.form.errors.has("company")
+              ? _c("span", {
+                  staticClass: "help is-danger",
+                  domProps: {
+                    textContent: _vm._s(_vm.form.errors.get("company"))
+                  }
+                })
+              : _vm._e()
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "field mb-1" }, [
+          _c("div", { staticClass: "control" }, [
+            _vm._m(2),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.form.business_sector,
+                  expression: "form.business_sector"
+                }
+              ],
+              class: ["is-hovered", "input"],
+              attrs: {
+                type: "text",
+                id: "business_sector",
+                name: "business_sector"
+              },
+              domProps: { value: _vm.form.business_sector },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.form, "business_sector", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _vm.form.errors.has("business_sector")
+              ? _c("span", {
+                  staticClass: "help is-danger",
+                  domProps: {
+                    textContent: _vm._s(_vm.form.errors.get("business_sector"))
+                  }
+                })
+              : _vm._e()
+          ])
+        ]),
+        _vm._v(" "),
+        _c("h2", { staticClass: "subtitle for-white" }, [
+          _vm._v("\n            Información del Correo\n        ")
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "field mb-1" }, [
@@ -4870,6 +4753,25 @@ var render = function() {
           ])
         ])
       ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        class: [
+          "notification",
+          "is-success",
+          { "is-invisible": _vm.hasMessage }
+        ]
+      },
+      [
+        _c("button", {
+          staticClass: "delete",
+          on: { click: _vm.hiddenNotification }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "for-green-title" }, [_vm._v("asdasda")])
+      ]
     )
   ])
 }
@@ -4882,6 +4784,28 @@ var staticRenderFns = [
       _vm._v("País - "),
       _c("span", { staticClass: "opcional-label" }, [_vm._v("opcional")])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { staticClass: "label", attrs: { for: "company" } }, [
+      _vm._v("Empresa - "),
+      _c("span", { staticClass: "opcional-label" }, [_vm._v("opcional")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticClass: "label", attrs: { for: "business_sector" } },
+      [
+        _vm._v("Rubro - "),
+        _c("span", { staticClass: "opcional-label" }, [_vm._v("opcional")])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -5187,9 +5111,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
-        _vm._v(
-          "Contacto permanente con el cliente involucrandolo en cada fase del desarrollo."
-        )
+        _vm._v("Constante comunicación con nuestros clientes.")
       ])
     ])
   },
@@ -5227,74 +5149,11 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("h1", { staticClass: "title for-white is-size-4" }, [
-        _vm._v("Excelencia")
+        _vm._v("Pasión")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
-        _vm._v("Servicio de calidad, por profesionales.")
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=template&id=78b5237e&scoped=true&":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Blog.vue?vue&type=template&id=78b5237e&scoped=true& ***!
-  \**************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "blog" } }, [
-    _c(
-      "section",
-      {
-        staticClass: "hero is-fullheight",
-        style: { backgroundImage: "url(" + _vm.image + ")" },
-        attrs: { id: "hero" }
-      },
-      [_vm._m(0)]
-    )
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hero-body layer" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title is-2 mb-2" }, [
-          _vm._v("¡Zona en Construcción!")
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "subtitle is-3" }, [
-          _vm._v("\n                    Actualmente tenemos nuestro Blog"),
-          _c("strong", [_vm._v(" bajo Construcción ")]),
-          _vm._v(
-            " para brindarte un mejor servicio y la mejor información tecnológica.\n                "
-          )
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "subtitle is-3" }, [
-          _vm._v("\n                    Revisa nuestros  "),
-          _c("a", { attrs: { href: "#/servicios" } }, [_vm._v("servicios")]),
-          _vm._v(" o "),
-          _c("a", { attrs: { href: "#/Contacto" } }, [_vm._v("contáctanos")]),
-          _vm._v(" para mayor información.\n                ")
-        ])
+        _vm._v("Amamos lo que hacemos para mejorar lo que ofrecemos.")
       ])
     ])
   }
@@ -5441,9 +5300,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Implementación y Hosting")
-                ]),
+                _vm._m(5),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
@@ -5451,7 +5308,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(5)
+                _vm._m(6)
               ])
             ]),
             _vm._v(" "),
@@ -5468,9 +5325,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Desarrollo de Apps Web")
-                ]),
+                _vm._m(7),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
@@ -5478,7 +5333,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(6)
+                _vm._m(8)
               ])
             ])
           ]),
@@ -5498,16 +5353,16 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Consultorías Tecnológicas")
+                  _vm._v("Consultoría Tecnológica")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "Grupo especializado en ofrecerte la mejor solución para tus necesidades"
+                    "Grupo especializado en ofrecerte la mejor solución para tus necesidades."
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(7)
+                _vm._m(9)
               ])
             ]),
             _vm._v(" "),
@@ -5525,16 +5380,16 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Open Source")
+                  _vm._v("Inteligencia de Negocios")
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
-                    "ERP, CMS, e-commerce y CMS. Data Warehouse e Inteligencia de Negocios."
+                    "ERP, CMS, e-commerce y CMS. Data Warehouse e Business Intelligence."
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(8)
+                _vm._m(10)
               ])
             ])
           ]),
@@ -5553,17 +5408,13 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Implementación y Hosting")
-                ]),
+                _vm._m(11),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
-                  _vm._v(
-                    "Especializados en plataformas de hosting remotas o privadas del cliente."
-                  )
+                  _vm._v("Desarrollo de aplicaciones para iOS y Android.")
                 ]),
                 _vm._v(" "),
-                _vm._m(9)
+                _vm._m(12)
               ])
             ]),
             _vm._v(" "),
@@ -5580,17 +5431,13 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _c("h1", { staticClass: "title for-white" }, [
-                  _vm._v("Desarrollo de Apps Web")
-                ]),
+                _vm._m(13),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
-                  _vm._v(
-                    "Plataformas web, con las tecnologías más innovadoras y modernas."
-                  )
+                  _vm._v("Desarrollo de aplicaciones multiplataformas.")
                 ]),
                 _vm._v(" "),
-                _vm._m(10)
+                _vm._m(14)
               ])
             ])
           ])
@@ -5604,7 +5451,7 @@ var render = function() {
         staticClass: "hero is-medium has-text-centered is-bold bg-cover",
         style: { backgroundImage: "url(" + _vm.image[7] + ")" }
       },
-      [_vm._m(11)]
+      [_vm._m(15)]
     ),
     _vm._v(" "),
     _c("section", { staticClass: "section" }, [
@@ -5711,7 +5558,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-4" }, [
           _vm._v(
-            "\n                    Integramos la implementación de Sistemas de Información bajo diversas tecnologías orientadas web, diseñando e implementando tanto en la nube como en infraestructura privada.\n                "
+            "\n                    Integramos la implementación de Sistemas de Información bajo diversas tecnologías, diseñando e implementando tanto en la nube como en infraestructura privada.\n                "
           )
         ])
       ])
@@ -5721,6 +5568,16 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("h1", { staticClass: "title for-white" }, [
+      _vm._v("Implementación y "),
+      _c("br"),
+      _vm._v("Hosting")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "section" }, [
       _c(
         "a",
@@ -5730,6 +5587,16 @@ var staticRenderFns = [
         },
         [_vm._v("Más información")]
       )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h1", { staticClass: "title for-white" }, [
+      _vm._v("Desarrollo de Apps "),
+      _c("br"),
+      _vm._v("Web")
     ])
   },
   function() {
@@ -5781,6 +5648,16 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("h1", { staticClass: "title for-white" }, [
+      _vm._v("Desarrollo de Apps "),
+      _c("br"),
+      _vm._v("Móviles")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "section" }, [
       _c(
         "a",
@@ -5790,6 +5667,16 @@ var staticRenderFns = [
         },
         [_vm._v("Más información")]
       )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h1", { staticClass: "title for-white" }, [
+      _vm._v("Desarrollo de Apps "),
+      _c("br"),
+      _vm._v("Híbridas")
     ])
   },
   function() {
@@ -5896,7 +5783,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                Desarrollo de Apps Web\n                                "
+                        "\n                                Desarrollo de Aplicaciones\n                                "
                       )
                     ])
                   ]
@@ -5915,7 +5802,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                Consultorías Tecnológicas\n                                "
+                        "\n                                Consultoría Tecnológica\n                                "
                       )
                     ])
                   ]
@@ -5934,7 +5821,7 @@ var render = function() {
                   [
                     _c("a", [
                       _vm._v(
-                        "\n                                Plataformas de código abierto\n                                "
+                        "\n                                Inteligencia de Negocios\n                                "
                       )
                     ])
                   ]
@@ -6058,64 +5945,6 @@ var render = function() {
                   _vm._m(4)
                 ])
               ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.tabsel == "service5",
-                    expression: "tabsel == 'service5'"
-                  }
-                ]
-              },
-              [
-                _c("div", { staticClass: "columns section is-vcentered" }, [
-                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
-                    _c("img", {
-                      attrs: {
-                        src: _vm.getImgUrl(2),
-                        alt: "service",
-                        srcset: ""
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _vm._m(5)
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.tabsel == "service6",
-                    expression: "tabsel == 'service6'"
-                  }
-                ]
-              },
-              [
-                _c("div", { staticClass: "columns section is-vcentered" }, [
-                  _c("div", { staticClass: "column has-text-centered mt-1" }, [
-                    _c("img", {
-                      attrs: {
-                        src: _vm.getImgUrl(3),
-                        alt: "service",
-                        srcset: ""
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _vm._m(6)
-                ])
-              ]
             )
           ])
         ])
@@ -6170,7 +5999,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Desarrollo de Webapps")
+        _vm._v("Desarrollo de Aplicaciones")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
@@ -6192,7 +6021,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Consultorías Tecnológicas")
+        _vm._v("Consultoría Tecnológica")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
@@ -6214,7 +6043,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "column has-text-justified" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Open Source")
+        _vm._v("Inteligencia de Negocios")
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
@@ -6226,50 +6055,6 @@ var staticRenderFns = [
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
           "Impulsamos tu competitividad ayudándote a reaccionar a los cambios del mercado. Satisfacemos todas tus necesidades que permitan integrar el código abierto en tus proyectos."
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column has-text-justified" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Desarrollo de Webapps")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
-        _vm._v(
-          "Las aplicaciones web son muy populares actualmente y compatibles con cualquier sistema operativo. Su bajo o nulo mantenimiento las convierten en una muy buena opción para usuarios finales."
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
-        _vm._v(
-          "Si piensa en desarrollar alguna webapp nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento."
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column has-text-justified" }, [
-      _c("h1", { staticClass: "title for-white mt-1" }, [
-        _vm._v("Consultorías Tecnológicas")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
-        _vm._v(
-          "Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero."
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
-        _vm._v(
-          "Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios."
         )
       ])
     ])
@@ -20496,9 +20281,6 @@ var routes = [{
 }, {
   path: "/contacto",
   component: __webpack_require__(/*! ./views/Contact */ "./resources/js/views/Contact.vue").default
-}, {
-  path: "/blog",
-  component: __webpack_require__(/*! ./views/Blog */ "./resources/js/views/Blog.vue").default
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes,
@@ -20857,93 +20639,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_2995bb7e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/views/Blog.vue":
-/*!*************************************!*\
-  !*** ./resources/js/views/Blog.vue ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Blog_vue_vue_type_template_id_78b5237e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Blog.vue?vue&type=template&id=78b5237e&scoped=true& */ "./resources/js/views/Blog.vue?vue&type=template&id=78b5237e&scoped=true&");
-/* harmony import */ var _Blog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Blog.vue?vue&type=script&lang=js& */ "./resources/js/views/Blog.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true& */ "./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Blog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Blog_vue_vue_type_template_id_78b5237e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Blog_vue_vue_type_template_id_78b5237e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "78b5237e",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/Blog.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/Blog.vue?vue&type=script&lang=js&":
-/*!**************************************************************!*\
-  !*** ./resources/js/views/Blog.vue?vue&type=script&lang=js& ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true& ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_lib_loader_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/lib/loader.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=style&index=0&id=78b5237e&lang=scss&scoped=true&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_lib_loader_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_lib_loader_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_lib_loader_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_lib_loader_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_lib_loader_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_78b5237e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "./resources/js/views/Blog.vue?vue&type=template&id=78b5237e&scoped=true&":
-/*!********************************************************************************!*\
-  !*** ./resources/js/views/Blog.vue?vue&type=template&id=78b5237e&scoped=true& ***!
-  \********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_template_id_78b5237e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=template&id=78b5237e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Blog.vue?vue&type=template&id=78b5237e&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_template_id_78b5237e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_template_id_78b5237e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

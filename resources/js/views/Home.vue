@@ -58,7 +58,7 @@
                 <div class="container">
                     <h1 class="title for-dark-title is-2">Servicios que ofrecemos</h1>
                     <h2 class="subtitle for-dark-subtitle is-4">
-                        Integramos la implementación de Sistemas de Información bajo diversas tecnologías orientadas web, diseñando e implementando tanto en la nube como en infraestructura privada.
+                        Integramos la implementación de Sistemas de Información bajo diversas tecnologías, diseñando e implementando tanto en la nube como en infraestructura privada.
                     </h2>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                                 <div class="section">
                                     <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Implementación y Hosting</h1>
+                                <h1 class="title for-white">Implementación y <br>Hosting</h1>
                                 <p class="is-size-5">Especializados en plataformas de hosting remotas o privadas del cliente.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
@@ -85,7 +85,7 @@
                                 <div class="section">
                                     <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Desarrollo de Apps Web</h1>
+                                <h1 class="title for-white">Desarrollo de Apps <br>Web</h1>
                                 <p class="is-size-5">Plataformas web, con las tecnologías más innovadoras y modernas.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
@@ -99,8 +99,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(5)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Consultorías Tecnológicas</h1>
-                                <p class="is-size-5">Grupo especializado en ofrecerte la mejor solución para tus necesidades</p>
+                                <h1 class="title for-white">Consultoría Tecnológica</h1>
+                                <p class="is-size-5">Grupo especializado en ofrecerte la mejor solución para tus necesidades.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -111,8 +111,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(6)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Open Source</h1>
-                                <p class="is-size-5">ERP, CMS, e-commerce y CMS. Data Warehouse e Inteligencia de Negocios.</p>
+                                <h1 class="title for-white">Inteligencia de Negocios</h1>
+                                <p class="is-size-5">ERP, CMS, e-commerce y CMS. Data Warehouse e Business Intelligence.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -125,8 +125,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(8)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Implementación y Hosting</h1>
-                                <p class="is-size-5">Especializados en plataformas de hosting remotas o privadas del cliente.</p>
+                                <h1 class="title for-white">Desarrollo de Apps <br>Móviles</h1>
+                                <p class="is-size-5">Desarrollo de aplicaciones para iOS y Android.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -137,8 +137,8 @@
                                 <div class="section">
                                     <img :src="getImgUrl(9)" alt="Servicio Icono" height="140" width="140">
                                 </div>
-                                <h1 class="title for-white">Desarrollo de Apps Web</h1>
-                                <p class="is-size-5">Plataformas web, con las tecnologías más innovadoras y modernas.</p>
+                                <h1 class="title for-white">Desarrollo de Apps <br>Híbridas</h1>
+                                <p class="is-size-5">Desarrollo de aplicaciones multiplataformas.</p>
                                 <div class="section">
                                     <a href="/#/servicios" class="has-text-weight-semibold is-size-5">Más información</a>
                                 </div>
@@ -246,7 +246,7 @@
     }
 
     .layer {
-        background-color: rgba(74, 74, 74, 0.5);
+        background-color: rgba(38, 38, 38, 0.57);
         top: 0;
         left: 0;
         width: 100%;
@@ -301,7 +301,7 @@
     }
 
     .for-blue {
-        color: #cce7f9;
+        color: #cce7f9db;
     }
 
     .is-green {
