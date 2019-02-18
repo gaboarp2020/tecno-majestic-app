@@ -61,8 +61,8 @@
                                 </div>
                                 <div class="column has-text-justified">
                                     <h1 class="title for-white mt-1">Desarrollo de Aplicaciones</h1>
-                                    <p class="is-size-5">Las aplicaciones web son muy populares actualmente y compatibles con cualquier sistema operativo. Su bajo o nulo mantenimiento las convierten en una muy buena opción para usuarios finales.</p>
-                                    <p class="is-size-5 mt-1">Si piensa en desarrollar alguna webapp nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento.</p>
+                                    <p class="is-size-5">Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma.</p>
+                                    <p class="is-size-5 mt-1">Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento.</p>
                                 </div>
                             </div>
                         </div>
@@ -85,8 +85,8 @@
                                 </div>
                                 <div class="column has-text-justified">
                                     <h1 class="title for-white mt-1">Inteligencia de Negocios</h1>
-                                    <p class="is-size-5">En el entorno de negocios mundial, las empresas emergentes más exitosas no utilizan software propietario sino abierto, dándoles una mayor oportunidad de innovar y madurar.</p>
-                                    <p class="is-size-5 mt-1">Impulsamos tu competitividad ayudándote a reaccionar a los cambios del mercado. Satisfacemos todas tus necesidades que permitan integrar el código abierto en tus proyectos.</p>
+                                    <p class="is-size-5">Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable.</p>
+                                    <p class="is-size-5 mt-1">Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa.</p>
                                 </div>
                             </div>
                         </div>

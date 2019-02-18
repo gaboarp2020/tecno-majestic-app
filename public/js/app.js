@@ -2700,7 +2700,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer {\r\n  padding: 3rem 1.5rem;\n}\n.columns {\r\n  margin: auto;\n}\r\n", ""]);
+exports.push([module.i, "\n.footer {\n  padding: 3rem 1.5rem;\n}\n.columns {\n  margin: auto;\n}\n", ""]);
 
 // exports
 
@@ -6004,13 +6004,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "Las aplicaciones web son muy populares actualmente y compatibles con cualquier sistema operativo. Su bajo o nulo mantenimiento las convierten en una muy buena opción para usuarios finales."
+          "Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Si piensa en desarrollar alguna webapp nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento."
+          "Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento."
         )
       ])
     ])
@@ -6048,13 +6048,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5" }, [
         _vm._v(
-          "En el entorno de negocios mundial, las empresas emergentes más exitosas no utilizan software propietario sino abierto, dándoles una mayor oportunidad de innovar y madurar."
+          "Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable."
         )
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "is-size-5 mt-1" }, [
         _vm._v(
-          "Impulsamos tu competitividad ayudándote a reaccionar a los cambios del mercado. Satisfacemos todas tus necesidades que permitan integrar el código abierto en tus proyectos."
+          "Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa."
         )
       ])
     ])
@@ -20923,8 +20923,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/juancpaiva/laravel-projects/tecnomaj-predeploy/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/juancpaiva/laravel-projects/tecnomaj-predeploy/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
