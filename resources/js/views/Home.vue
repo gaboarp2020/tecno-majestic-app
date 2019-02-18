@@ -301,7 +301,7 @@
     }
 
     .for-blue {
-        color: #cce7f9db;
+        color: #e7f5ffdb;
     }
 
     .is-green {

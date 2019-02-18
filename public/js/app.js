@@ -2700,7 +2700,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer {\n  padding: 3rem 1.5rem;\n}\n.columns {\n  margin: auto;\n}\n", ""]);
+exports.push([module.i, "\n.footer {\r\n  padding: 3rem 1.5rem;\n}\n.columns {\r\n  margin: auto;\n}\r\n", ""]);
 
 // exports
 
@@ -2719,7 +2719,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(38, 38, 38, 0.57);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #cce7f9db;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #dfdfdf;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
+exports.push([module.i, "\nhtml {\n    scroll-behavior: smooth;\n}\n.step {\n    position: relative;\n    bottom: 52px;\n}\n.is-relative {\n\n    position: relative;\n}\n.bg-cover {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position-y: center;\n    background-position-x: left;\n}\n.layer {\n    background-color: rgba(38, 38, 38, 0.57);\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n.grey-layer {\n    background-color: rgba(107, 107, 107, 0.7);\n}\n.donwArrow-icon {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    margin-left: -21px;\n}\n.fa-chevron-down {\n\n    color: gray;\n}\n.fa-chevron-down:hover {\n\n    -webkit-animation: boing 500ms ease-in-out;\n\n            animation: boing 500ms ease-in-out;\n}\n@-webkit-keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n@keyframes boing {\n15%, 40%, 75%, 100% {\n        -webkit-transform-origin: center center;\n                transform-origin: center center;\n}\n15% {\n        -webkit-transform: scale(1.2, 1.1);\n                transform: scale(1.2, 1.1);\n}\n40% {\n        -webkit-transform: scale(0.95, 0.95);\n                transform: scale(0.95, 0.95);\n}\n75% {\n        -webkit-transform: scale(1.05, 1);\n                transform: scale(1.05, 1);\n}\n100% {\n        -webkit-transform: scale(1, 1);\n                transform: scale(1, 1);\n}\n}\n.is-blue {\n\n    background-color: #72B8E8;\n}\n.for-blue {\n    color: #e7f5ffdb;\n}\n.is-green {\n\n    background-color: #A2C94A;\n}\n.for-green-title {\n    color: #edffc4;\n    /* color: #778c48; */\n}\n.for-green-subtitle {\n    color: #e8f3ce;\n    /* color: #7c9050; */\n}\n.is-orange {\n\n    background-color: #cb601adb;\n}\n.for-orange-title {\n    color: #ffedda;\n}\n.for-orange-subtitle {\n    color: #ffe5c8;\n}\n.is-purple{\n\n    background-color: #7954F7;\n}\n.for-purple {\n    color: #4a406d;\n}\n.for-white {\n    color: #616161;\n}\n.for-dark-title {\n    color: #e8e8e8;\n}\n.for-dark-subtitle {\n    color: #dfdfdf;\n}\n.mt-1 {\n    margin-top: 1rem;\n}\n.mt-2 {\n    margin-top: 1.5rem;\n}\n.mt-3 {\n    margin-top: 3rem;\n}\n.box {\n    background-color: #f7f7f7;\n}\n\n", ""]);
 
 // exports
 
@@ -5975,18 +5975,18 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column has-text-justified" }, [
+    return _c("div", { staticClass: "column" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
         _vm._v("Implementación y Hosting")
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
           "Ofrecemos algunos beneficios claves para los Sistemas de Información empresariales: Ahorro de costes, rapidez de implementación y escalabilidad."
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-1 has-text-justified" }, [
         _vm._v(
           "Nos basamos en nuevos modelos de negocios que ofrecen servicios con muchas características atractivas para la mayoría de las empresas."
         )
@@ -5997,18 +5997,18 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column has-text-justified" }, [
+    return _c("div", { staticClass: "column" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
         _vm._v("Desarrollo de Aplicaciones")
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
           "Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma."
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-1 has-text-justified" }, [
         _vm._v(
           "Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento."
         )
@@ -6019,18 +6019,18 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column has-text-justified" }, [
+    return _c("div", { staticClass: "column" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
         _vm._v("Consultoría Tecnológica")
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
           "Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero."
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-1 has-text-justified" }, [
         _vm._v(
           "Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios."
         )
@@ -6041,18 +6041,18 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column has-text-justified" }, [
+    return _c("div", { staticClass: "column" }, [
       _c("h1", { staticClass: "title for-white mt-1" }, [
         _vm._v("Inteligencia de Negocios")
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5" }, [
+      _c("p", { staticClass: "is-size-5 has-text-justified" }, [
         _vm._v(
           "Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable."
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticClass: "is-size-5 mt-1" }, [
+      _c("p", { staticClass: "is-size-5 mt-1 has-text-justified" }, [
         _vm._v(
           "Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa."
         )
@@ -20923,8 +20923,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/juancpaiva/laravel-projects/tecnomaj-predeploy/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/juancpaiva/laravel-projects/tecnomaj-predeploy/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

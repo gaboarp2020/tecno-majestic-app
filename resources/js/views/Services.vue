@@ -47,10 +47,10 @@
                                 <div class="column has-text-centered mt-1">
                                     <img :src="getImgUrl(1)" alt="service" srcset="" >
                                 </div>
-                                <div class="column has-text-justified">
+                                <div class="column">
                                     <h1 class="title for-white mt-1">Implementación y Hosting</h1>
-                                    <p class="is-size-5">Ofrecemos algunos beneficios claves para los Sistemas de Información empresariales: Ahorro de costes, rapidez de implementación y escalabilidad.</p>
-                                    <p class="is-size-5 mt-1">Nos basamos en nuevos modelos de negocios que ofrecen servicios con muchas características atractivas para la mayoría de las empresas.</p>
+                                    <p class="is-size-5 has-text-justified">Ofrecemos algunos beneficios claves para los Sistemas de Información empresariales: Ahorro de costes, rapidez de implementación y escalabilidad.</p>
+                                    <p class="is-size-5 mt-1 has-text-justified">Nos basamos en nuevos modelos de negocios que ofrecen servicios con muchas características atractivas para la mayoría de las empresas.</p>
                                 </div>
                             </div>
                         </div>
@@ -59,10 +59,10 @@
                                 <div class="column has-text-centered mt-1">
                                     <img :src="getImgUrl(2)" alt="service" srcset="" >
                                 </div>
-                                <div class="column has-text-justified">
+                                <div class="column">
                                     <h1 class="title for-white mt-1">Desarrollo de Aplicaciones</h1>
-                                    <p class="is-size-5">Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma.</p>
-                                    <p class="is-size-5 mt-1">Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento.</p>
+                                    <p class="is-size-5 has-text-justified">Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma.</p>
+                                    <p class="is-size-5 mt-1 has-text-justified">Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento.</p>
                                 </div>
                             </div>
                         </div>
@@ -71,10 +71,10 @@
                                 <div class="column has-text-centered mt-1">
                                     <img :src="getImgUrl(3)" alt="service" srcset="" >
                                 </div>
-                                <div class="column has-text-justified">
+                                <div class="column">
                                     <h1 class="title for-white mt-1">Consultoría Tecnológica</h1>
-                                    <p class="is-size-5">Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero.</p>
-                                    <p class="is-size-5 mt-1">Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios.</p>
+                                    <p class="is-size-5 has-text-justified">Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero.</p>
+                                    <p class="is-size-5 mt-1 has-text-justified">Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios.</p>
                                 </div>
                             </div>
                         </div>
@@ -83,10 +83,10 @@
                                 <div class="column has-text-centered mt-1">
                                     <img :src="getImgUrl(4)" alt="service" srcset="" >
                                 </div>
-                                <div class="column has-text-justified">
+                                <div class="column">
                                     <h1 class="title for-white mt-1">Inteligencia de Negocios</h1>
-                                    <p class="is-size-5">Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable.</p>
-                                    <p class="is-size-5 mt-1">Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa.</p>
+                                    <p class="is-size-5 has-text-justified">Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable.</p>
+                                    <p class="is-size-5 mt-1 has-text-justified">Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa.</p>
                                 </div>
                             </div>
                         </div>
