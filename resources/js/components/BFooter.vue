@@ -29,7 +29,7 @@
           <div class="column is-one-quarter-desktop is-half-mobile has-text-left">
             <p class="for-blue is-size-5 has-text-weight-bold">Síguenos</p>
             <p>
-              <a href="#">
+              <a href="https://www.facebook.com/Consultora-Tecnol%C3%B3gica-Tecnomajestic-627964787660066/">
                 <span class="icon">
                   <i class="fa for-blue fa-facebook-f"></i>
                 </span>
@@ -37,7 +37,7 @@
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="https://twitter.com/tecnomajestic">
                 <span class="icon">
                   <i class="fa for-blue fa-twitter"></i>
                 </span>
@@ -45,7 +45,7 @@
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="https://www.instagram.com/consultora_tecnomaj/?hl=es-la">
                 <span class="icon">
                   <i class="fa for-blue fa-instagram"></i>
                 </span>
@@ -53,7 +53,7 @@
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/consultora-tecnomajestic-c-a-456608180/">
                 <span class="icon">
                   <i class="fa for-blue fa-linkedin"></i>
                 </span>

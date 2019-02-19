@@ -2700,7 +2700,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer {\r\n  padding: 3rem 1.5rem;\n}\n.columns {\r\n  margin: auto;\n}\r\n", ""]);
+exports.push([module.i, "\n.footer {\n  padding: 3rem 1.5rem;\n}\n.columns {\n  margin: auto;\n}\n", ""]);
 
 // exports
 
@@ -4126,51 +4126,82 @@ var staticRenderFns = [
                   ),
                   _vm._v(" "),
                   _c("p", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("span", { staticClass: "icon" }, [
-                        _c("i", { staticClass: "fa for-blue fa-facebook-f" })
-                      ]),
-                      _vm._v(" "),
-                      _c("strong", { staticClass: "for-blue is-size-6" }, [
-                        _vm._v("Facebook")
-                      ])
-                    ])
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://www.facebook.com/Consultora-Tecnol%C3%B3gica-Tecnomajestic-627964787660066/"
+                        }
+                      },
+                      [
+                        _c("span", { staticClass: "icon" }, [
+                          _c("i", { staticClass: "fa for-blue fa-facebook-f" })
+                        ]),
+                        _vm._v(" "),
+                        _c("strong", { staticClass: "for-blue is-size-6" }, [
+                          _vm._v("Facebook")
+                        ])
+                      ]
+                    )
                   ]),
                   _vm._v(" "),
                   _c("p", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("span", { staticClass: "icon" }, [
-                        _c("i", { staticClass: "fa for-blue fa-twitter" })
-                      ]),
-                      _vm._v(" "),
-                      _c("strong", { staticClass: "for-blue is-size-6" }, [
-                        _vm._v("Twitter")
-                      ])
-                    ])
+                    _c(
+                      "a",
+                      { attrs: { href: "https://twitter.com/tecnomajestic" } },
+                      [
+                        _c("span", { staticClass: "icon" }, [
+                          _c("i", { staticClass: "fa for-blue fa-twitter" })
+                        ]),
+                        _vm._v(" "),
+                        _c("strong", { staticClass: "for-blue is-size-6" }, [
+                          _vm._v("Twitter")
+                        ])
+                      ]
+                    )
                   ]),
                   _vm._v(" "),
                   _c("p", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("span", { staticClass: "icon" }, [
-                        _c("i", { staticClass: "fa for-blue fa-instagram" })
-                      ]),
-                      _vm._v(" "),
-                      _c("strong", { staticClass: "for-blue is-size-6" }, [
-                        _vm._v("Instagram")
-                      ])
-                    ])
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://www.instagram.com/consultora_tecnomaj/?hl=es-la"
+                        }
+                      },
+                      [
+                        _c("span", { staticClass: "icon" }, [
+                          _c("i", { staticClass: "fa for-blue fa-instagram" })
+                        ]),
+                        _vm._v(" "),
+                        _c("strong", { staticClass: "for-blue is-size-6" }, [
+                          _vm._v("Instagram")
+                        ])
+                      ]
+                    )
                   ]),
                   _vm._v(" "),
                   _c("p", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("span", { staticClass: "icon" }, [
-                        _c("i", { staticClass: "fa for-blue fa-linkedin" })
-                      ]),
-                      _vm._v(" "),
-                      _c("strong", { staticClass: "for-blue is-size-6" }, [
-                        _vm._v("LinkedIn")
-                      ])
-                    ])
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://www.linkedin.com/in/consultora-tecnomajestic-c-a-456608180/"
+                        }
+                      },
+                      [
+                        _c("span", { staticClass: "icon" }, [
+                          _c("i", { staticClass: "fa for-blue fa-linkedin" })
+                        ]),
+                        _vm._v(" "),
+                        _c("strong", { staticClass: "for-blue is-size-6" }, [
+                          _vm._v("LinkedIn")
+                        ])
+                      ]
+                    )
                   ])
                 ]
               ),
@@ -20923,8 +20954,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\gaboa\code\tecno-majestic-app\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
