@@ -24,7 +24,7 @@
                 <router-link to="/servicios" class="navbar-item">Servicios</router-link>
                 <router-link to="/contacto" class="navbar-item">Contacto</router-link>
                 <div class="navbar-item">
-                    <a href="https://blog.tecnomajestic.com" class="button is-link is-outlined">Blog</a>
+                    <a href="https://blog.tecnomajestic.com" class="button is-link is-outlined" target="_blank">Blog</a>
                 </div>
             </div>
         </div>
