@@ -96,7 +96,7 @@
 
         <div :class="['notification', 'is-success', {'is-invisible': hasMessage}]">
             <button @click="hiddenNotification" class="delete"></button>
-            <p class="for-green-title" >asdasda</p>
+            <p class="for-green-title" v-text="notification"></p>
         </div>
 
     </div>
@@ -117,6 +117,12 @@
                     name: '',
 
                     last_name: '',
+                    
+                    country: '',
+
+                    company: '',
+
+                    business_sector: '',
 
                     email: '',
 
