@@ -7,7 +7,7 @@
                 <div class="container">
                     <h1 class="title for-dark-title is-2">Innovando las Consultorías Tecnológicas</h1>
                     <h2 class="subtitle for-dark-subtitle is-3">
-                        Consultorías y desarrollo web. Implementación en tiempo récord.
+                        Consultorías y Desarrollo. Implementación en tiempo récord.
                     </h2>
                 </div>
                 <span class="icon is-large donwArrow-icon">
@@ -25,7 +25,7 @@
                 <div class="container">
                     <h1 class="title for-orange-title is-2">Nuestra Historia</h1>
                     <h2 class="subtitle for-orange-subtitle is-4">
-                        Somos una Joven empresa orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.
+                        Somos una empresa orientada a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.
                     </h2>
                 </div>
             </div>

@@ -5505,7 +5505,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle for-dark-subtitle is-3" }, [
           _vm._v(
-            "\n                    Consultorías y desarrollo web. Implementación en tiempo récord.\n                "
+            "\n                    Consultorías y Desarrollo. Implementación en tiempo récord.\n                "
           )
         ])
       ]),
@@ -5530,7 +5530,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h2", { staticClass: "subtitle for-orange-subtitle is-4" }, [
             _vm._v(
-              "\n                    Somos una Joven empresa orientados a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.\n                "
+              "\n                    Somos una empresa orientada a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.\n                "
             )
           ])
         ])
@@ -20954,8 +20954,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/juancpaiva/laravel-projects/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/juancpaiva/laravel_dev/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/juancpaiva/laravel_dev/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
