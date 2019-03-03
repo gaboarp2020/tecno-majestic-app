@@ -17,5 +17,4 @@
 //     return $request->user();
 // });
 
-//Route::post('/contact', 'contactsController@store');
-Route::post('/mail', 'contactsController@mail');
+Route::post('/contact', 'ContactsController@store');

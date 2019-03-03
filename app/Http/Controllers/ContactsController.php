@@ -32,17 +32,6 @@ class ContactsController extends Controller
             'content' => request('content'),
         ]);
 
-    }
-
-    /**
-     * Send data via email.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function mail()
-    {
-
         $data = array(
             'name' => request('name'),
             'last_name' => request('last_name'),

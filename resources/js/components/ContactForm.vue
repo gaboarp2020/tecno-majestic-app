@@ -252,7 +252,7 @@ export default {
       this.$v.$touch();
       if (!this.$v.$invalid) {
         axios
-          .post("/api/mail", {
+          .post("/api/contact", {
             name: this.name,
 
             last_name: this.last_name,
