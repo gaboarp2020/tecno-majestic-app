@@ -128,6 +128,10 @@
           >
           <div v-if="$v.subject.$error">
             <span class="help is-danger" v-if="!$v.subject.required">Debes colocar un asunto</span>
+            <span
+              class="help is-danger"
+              v-if="!$v.subject.minLength"
+            >Debes colocar al menos 3 caracteres</span>
           </div>
         </div>
       </div>
@@ -145,6 +149,14 @@
           ></textarea>
           <div v-if="$v.content.$error">
             <span class="help is-danger" v-if="!$v.content.required">¡Te faltó colocar un mensaje!</span>
+            <span
+              class="help is-danger"
+              v-if="!$v.content.minLength"
+            >Debes colocar al menos 10 caracteres</span>
+            <span
+              class="help is-danger"
+              v-if="!$v.content.maxLength"
+            >Solo se permiten menos de 255 caracteres</span>
           </div>
         </div>
       </div>
@@ -156,9 +168,10 @@
       </div>
     </form>
 
-    <transition name="fade">
+    <transition name="slide-fade">
       <div
-        :class="['notification', {'is-success': isSuccess}, {'is-danger': isDanger}, {'is-invisible': hasMessage}]"
+        :class="['notification', {'is-success': isSuccess}, {'is-danger': isDanger}]"
+        v-if="hasMessage"
       >
         <button @click="hiddenNotification" class="delete"></button>
         <p :class="{'for-green-title': isSuccess}" v-text="notification"></p>
@@ -168,7 +181,12 @@
 </template>
 
 <script>
-import { required, email } from "vuelidate/lib/validators";
+import {
+  required,
+  email,
+  minLength,
+  maxLength
+} from "vuelidate/lib/validators";
 
 export default {
   data() {
@@ -195,7 +213,7 @@ export default {
 
       notification: null,
 
-      hasMessage: true,
+      hasMessage: false,
 
       isSuccess: false,
 
@@ -218,11 +236,14 @@ export default {
     },
 
     subject: {
-      required
+      required,
+      minLength: minLength(3)
     },
 
     content: {
-      required
+      required,
+      minLength: minLength(10),
+      maxLength: maxLength(255)
     }
   },
 
@@ -231,7 +252,7 @@ export default {
       this.$v.$touch();
       if (!this.$v.$invalid) {
         axios
-          .post("/api/contact", {
+          .post("/api/mail", {
             name: this.name,
 
             last_name: this.last_name,
@@ -249,24 +270,32 @@ export default {
             content: this.content
           })
           .then(response => {
-            this.isDanger = false;
-            this.isSuccess = true;
-            this.notification = "¡Mensaje enviado! Gracias por contactarnos";
-            this.hasMessage = false;
+            this.onSuccess();
           })
           .catch(error => {
-            console.log(error);
-
-            this.isSuccess = true;
-            this.isDanger = true;
-            this.notification = "Húbo un problema al enviar la información.";
-            this.hasMessage = false;
+            this.onFail();
           });
       }
     },
 
-    hiddenNotification() {
+    onSuccess() {
+      this.isDanger = false;
+      this.isSuccess = true;
+      this.notification = "¡Mensaje enviado! Gracias por contactarnos";
       this.hasMessage = true;
+    },
+
+    onFail() {
+      console.log(error.response);
+
+      this.isSuccess = false;
+      this.isDanger = true;
+      this.notification = "Húbo un problema al enviar la información.";
+      this.hasMessage = true;
+    },
+
+    hiddenNotification() {
+      this.hasMessage = false;
     }
   }
 };
@@ -307,12 +336,15 @@ export default {
   z-index: 100;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
 }
-
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
   opacity: 0;
 }
 </style>

@@ -2,7 +2,8 @@ import VueRouter from 'vue-router';
 
 let routes = [{
         path: "/",
-        component: require("./views/Home").default
+        component: require("./views/Home").default,
+        alias: "/home"
     },
 
     {

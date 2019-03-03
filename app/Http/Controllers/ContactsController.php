@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
-use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class ContactsController extends Controller
 {
@@ -44,7 +44,7 @@ class ContactsController extends Controller
             'business_sector' => 'nullable|string',
             'email' => 'required|email',
             'subject' => 'required|min:3',
-            'content' => 'required|min:10|max:255'
+            'content' => 'required|min:10|max:255',
         ]);
 
         Contact::forceCreate([
@@ -57,6 +57,17 @@ class ContactsController extends Controller
             'subject' => request('subject'),
             'content' => request('content'),
         ]);
+
+    }
+
+    /**
+     * Send data via email.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function mail()
+    {
 
         $data = array(
             'name' => request('name'),
@@ -74,8 +85,6 @@ class ContactsController extends Controller
             $message->to('info@tecnomajestic.com');
             $message->subject($data['subject']);
         });
-
-        //return ['message' => '¡Mensaje enviado! Gracias por contactarnos'];
 
     }
 
