@@ -291,6 +291,7 @@ export default {
       this.notification = "¡Mensaje enviado! Gracias por contactarnos";
       this.hasMessage = true;
       this.isLoading = false;
+      this.clear();
     },
 
     onFail(error) {
@@ -298,9 +299,30 @@ export default {
 
       this.isSuccess = false;
       this.isDanger = true;
-      this.notification = "Húbo un problema al enviar la información.";
+      this.notification = "Hubo un problema al enviar la información.";
       this.hasMessage = true;
       this.isLoading = false;
+      this.clear();
+    },
+
+    clear() {
+      this.name = null;
+
+      this.last_name = null;
+
+      this.country = null;
+
+      this.company = null;
+
+      this.business_sector = null;
+
+      this.email = null;
+
+      this.subject = null;
+
+      this.content = null;
+
+      this.$v.$reset();
     },
 
     hiddenNotification() {
