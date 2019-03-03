@@ -1,29 +1,23 @@
 import VueRouter from 'vue-router';
 
-let routes = [
-    {
+let routes = [{
         path: "/",
-        component: require("./views/Home").default
-    },
-    
-    {
-        path: "/home",
         component: require("./views/Home").default
     },
 
     {
         path: "/nosotros",
-        component: require("./views/About").default
+        component: require("./views/About").default,
     },
 
     {
         path: "/servicios",
-        component: require("./views/Services").default
+        component: require("./views/Services").default,
     },
 
     {
         path: "/contacto",
-        component: require("./views/Contact").default
+        component: require("./views/Contact").default,
     },
 ];
 

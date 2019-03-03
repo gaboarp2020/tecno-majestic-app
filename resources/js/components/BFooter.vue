@@ -6,19 +6,19 @@
           <div class="column is-one-quarter-desktop is-half-mobile has-text-left">
             <p class="for-blue is-size-5 has-text-weight-bold">Mapa del Sitio</p>
             <p>
-              <a href="#/nosotros">
+              <router-link to="/nosotros">
                 <strong class="for-blue is-size-6">Nosotros</strong>
-              </a>
+              </router-link>
             </p>
             <p>
-              <a href="#/servicios">
+              <router-link to="/servicios">
                 <strong class="for-blue is-size-6">Servicios</strong>
-              </a>
+              </router-link>
             </p>
             <p>
-              <a href="#/contacto">
+              <router-link to="/contacto">
                 <strong class="for-blue is-size-6">Contacto</strong>
-              </a>
+              </router-link>
             </p>
             <p>
               <a href="https://blog.tecnomajestic.com" target="_blank">
@@ -29,7 +29,10 @@
           <div class="column is-one-quarter-desktop is-half-mobile has-text-left">
             <p class="for-blue is-size-5 has-text-weight-bold">Síguenos</p>
             <p>
-              <a href="https://www.facebook.com/Consultora-Tecnol%C3%B3gica-Tecnomajestic-627964787660066/" target="_blank">
+              <a
+                href="https://www.facebook.com/Consultora-Tecnol%C3%B3gica-Tecnomajestic-627964787660066/"
+                target="_blank"
+              >
                 <span class="icon">
                   <i class="fa for-blue fa-facebook-f"></i>
                 </span>
@@ -53,7 +56,10 @@
               </a>
             </p>
             <p>
-              <a href="https://www.linkedin.com/in/consultora-tecnomajestic-c-a-456608180/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/consultora-tecnomajestic-c-a-456608180/"
+                target="_blank"
+              >
                 <span class="icon">
                   <i class="fa for-blue fa-linkedin"></i>
                 </span>
@@ -63,7 +69,7 @@
           </div>
           <div class="column is-full-mobile is-half-desktop has-text-left">
             <p class="for-blue is-size-5 has-text-weight-bold">Contáctanos</p>
-            <div class="">
+            <div class>
               <p class="for-blue is-size-6">
                 Dirección: Av. Francisco Solano con calle Los Mangos Torre Charan Piso 3 Oficina 3-3
                 Sabana Grande Municipio Libertador
