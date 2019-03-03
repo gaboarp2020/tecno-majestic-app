@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use App\Http\Controllers\Controller;
+use App\Mail\contactMail;
 use Illuminate\Support\Facades\Mail;
 
 class ContactsController extends Controller
@@ -43,11 +44,7 @@ class ContactsController extends Controller
             'content' => request('content'),
         );
 
-        Mail::send('emails.contact', $data, function ($message) use ($data) {
-            $message->from($data['email']);
-            $message->to('info@tecnomajestic.com');
-            $message->subject($data['subject']);
-        });
+        Mail::to('tecnomajestic@gmail.com')->send(new contactMail($data));
 
     }
 }

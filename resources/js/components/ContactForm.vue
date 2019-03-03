@@ -163,7 +163,10 @@
 
       <div class="field is-medium">
         <div class="control has-text-centered">
-          <button class="button is-primary is-medium is-outlined" :disabled="$v.$invalid">Contactar</button>
+          <button
+            :class="['button', 'is-primary', 'is-medium', {'is-loading': isLoading}]"
+            :disabled="$v.$invalid"
+          >Contactar</button>
         </div>
       </div>
     </form>
@@ -217,7 +220,9 @@ export default {
 
       isSuccess: false,
 
-      isDanger: false
+      isDanger: false,
+
+      isLoading: false
     };
   },
 
@@ -249,6 +254,7 @@ export default {
 
   methods: {
     onSubmit() {
+      this.isLoading = true;
       this.$v.$touch();
       if (!this.$v.$invalid) {
         axios
@@ -278,12 +284,13 @@ export default {
       }
     },
 
-    onSuccess() {
+    onSuccess(response) {
       console.log(response);
       this.isDanger = false;
       this.isSuccess = true;
       this.notification = "¡Mensaje enviado! Gracias por contactarnos";
       this.hasMessage = true;
+      this.isLoading = false;
     },
 
     onFail(error) {
@@ -293,6 +300,7 @@ export default {
       this.isDanger = true;
       this.notification = "Húbo un problema al enviar la información.";
       this.hasMessage = true;
+      this.isLoading = false;
     },
 
     hiddenNotification() {
