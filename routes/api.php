@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +17,5 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::post('/contact', 'contactsController@store');
+//Route::post('/contact', 'contactsController@store');
 Route::post('/mail', 'contactsController@mail');

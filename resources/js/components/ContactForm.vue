@@ -273,19 +273,20 @@ export default {
             this.onSuccess();
           })
           .catch(error => {
-            this.onFail();
+            this.onFail(error);
           });
       }
     },
 
     onSuccess() {
+      console.log(response);
       this.isDanger = false;
       this.isSuccess = true;
       this.notification = "¡Mensaje enviado! Gracias por contactarnos";
       this.hasMessage = true;
     },
 
-    onFail() {
+    onFail(error) {
       console.log(error.response);
 
       this.isSuccess = false;
