@@ -156,12 +156,14 @@
       </div>
     </form>
 
-    <div
-      :class="['notification', {'is-success': isSuccess}, {'is-danger': isDanger}, {'is-invisible': hasMessage}]"
-    >
-      <button @click="hiddenNotification" class="delete"></button>
-      <p :class="{'for-green-title': isSuccess}" v-text="notification"></p>
-    </div>
+    <transition name="fade">
+      <div
+        :class="['notification', {'is-success': isSuccess}, {'is-danger': isDanger}, {'is-invisible': hasMessage}]"
+      >
+        <button @click="hiddenNotification" class="delete"></button>
+        <p :class="{'for-green-title': isSuccess}" v-text="notification"></p>
+      </div>
+    </transition>
   </div>
 </template>
 
