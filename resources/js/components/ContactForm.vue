@@ -4,7 +4,7 @@
   <div class="box-form">
     <h1 class="title for-white">Formulario de contacto</h1>
 
-    <form action="/contactMessages" method="POST" @submit.prevent="onSubmit">
+    <form action="/contact" method="POST" @submit.prevent="onSubmit">
       <input type="hidden" name="_token" :value="csrf">
 
       <h2 class="subtitle for-white">Información Personal</h2>
