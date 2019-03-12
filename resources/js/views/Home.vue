@@ -143,9 +143,12 @@
                 <h1 class="title for-white">Inteligencia de Negocios</h1>
                 <p
                   class="is-size-5"
-                >ERP, CMS, e-commerce y CMS. Data Warehouse e Business Intelligence.</p>
+                >ERP, CRM, e-commerce y CMS. Data Warehouse y Business Intelligence.</p>
                 <div class="section">
-                  <a href="servicios" class="has-text-weight-semibold is-size-5">Más información</a>
+                  <router-link
+                    to="servicios"
+                    class="has-text-weight-semibold is-size-5"
+                  >Más información</router-link>
                 </div>
               </div>
             </div>
@@ -256,7 +259,7 @@ html {
 
 .step {
   position: relative;
-  bottom: 52px;
+  bottom: 56px;
 }
 
 .is-relative {
