@@ -1,24 +1,42 @@
 <template>
   <div id="inicio">
-    <section
-      id="hero"
-      class="hero is-relative bg-cover is-fullheight is-bold"
-      :style="{ backgroundImage: 'url(' + image[0] + ')' }"
-    >
-      <div class="hero-body layer">
-        <div class="container">
-          <h1 class="title for-dark-title is-2">Innovando las Consultorías Tecnológicas</h1>
-          <h2
-            class="subtitle for-dark-subtitle is-3"
-          >Consultorías y Desarrollo. Implementación en tiempo récord.</h2>
-        </div>
-        <span class="icon is-large donwArrow-icon">
-          <a href="#home">
-            <i class="fa for-dark-subtitle fa-2x fa-chevron-down"></i>
-          </a>
-        </span>
-      </div>
-    </section>
+    <div class="is-relative">
+      <transition name="slide-fade" mode="out-in">
+        <section
+          id="hero"
+          class="hero bg-cover is-fullheight is-bold"
+          :style="{ backgroundImage: 'url(' + image[i] + ')' }"
+          :key="image[i]"
+        >
+          <div class="hero-body layer">
+            <div class="container">
+              <h1 class="title for-dark-title is-2">
+                <transition name="slide-fade" mode="out-in">
+                  <div :key="hero.title[j]">{{ hero.title[j] }}</div>
+                </transition>
+              </h1>
+              <h2 class="subtitle for-dark-subtitle is-3">
+                <transition name="slide-fade" mode="out-in">
+                  <div :key="hero.content[j]">{{ hero.content[j] }}</div>
+                </transition>
+              </h2>
+            </div>
+          </div>
+        </section>
+      </transition>
+      <!-- <div class="row">
+        <span class="point"></span>
+        <span class="point"></span>
+        <span class="point"></span>
+        <span class="point"></span>
+        <span class="point"></span>
+      </div> -->
+      <span class="icon is-large donwArrow-icon">
+        <a href="#home">
+          <i class="fa for-dark-subtitle fa-2x fa-chevron-down"></i>
+        </a>
+      </span>
+    </div>
 
     <div id="home" class="step"></div>
 
@@ -83,7 +101,8 @@
                 <div class="section">
                   <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140">
                 </div>
-                <h1 class="title for-white">Implementación y
+                <h1 class="title for-white">
+                  Implementación y
                   <br>Hosting
                 </h1>
                 <p
@@ -102,7 +121,8 @@
                 <div class="section">
                   <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
                 </div>
-                <h1 class="title for-white">Desarrollo de Apps
+                <h1 class="title for-white">
+                  Desarrollo de Apps
                   <br>Web
                 </h1>
                 <p
@@ -159,7 +179,8 @@
                 <div class="section">
                   <img :src="getImgUrl(8)" alt="Servicio Icono" height="140" width="140">
                 </div>
-                <h1 class="title for-white">Desarrollo de Apps
+                <h1 class="title for-white">
+                  Desarrollo de Apps
                   <br>Móviles
                 </h1>
                 <p class="is-size-5">Desarrollo de aplicaciones para iOS y Android.</p>
@@ -176,7 +197,8 @@
                 <div class="section">
                   <img :src="getImgUrl(9)" alt="Servicio Icono" height="140" width="140">
                 </div>
-                <h1 class="title for-white">Desarrollo de Apps
+                <h1 class="title for-white">
+                  Desarrollo de Apps
                   <br>Híbridas
                 </h1>
                 <p class="is-size-5">Desarrollo de aplicaciones multiplataformas.</p>
@@ -218,15 +240,32 @@
 <script>
 import ContactForm from "../components/ContactForm.vue";
 
+let point = document.querySelectorAll("span.point");
+
 export default {
   components: { ContactForm },
 
   data() {
     return {
       title: "Inicio",
-
+      hero: {
+        title: [
+          "Innovando las Consultorías Tecnológicas",
+          "Hero title 2",
+          "Hero title 3",
+          "Hero title 4",
+          "Hero title 5"
+        ],
+        content: [
+          "Consultorías y Desarrollo. Implementación en tiempo récord.",
+          "Content 2",
+          "Content 3",
+          "Content 4",
+          "Content 5"
+        ]
+      },
       image: [
-        "../img/background/home-hero.jpeg",
+        "../img/background/home-hero.jpeg", // 0
         "../img/storage/people-group.png",
         "../img/background/home-services.jpeg",
         "../img/vector/cloud-vector.jpeg",
@@ -235,19 +274,43 @@ export default {
         "../img/vector/dev-vector.jpeg",
         "../img/background/home-contact.jpeg",
         "../img/vector/mobile-app.png",
-        "../img/vector/web-design.png"
-      ]
+        "../img/vector/web-design.png",
+        "../img/storage/hosting-v2.jpg", // 10
+        "../img/storage/development-v2.jpg", // 11
+        "../img/storage/consulting-v2.jpg", // 12
+        "../img/storage/opensource-v2.jpg" // 13
+      ],
+      i: 0,
+      j: 0
     };
   },
 
   methods: {
     getImgUrl(index) {
       return this.image[index];
+    },
+    changeHero(i) {
+      if (i === 0) {
+        this.i = 10;
+        this.j = 1;
+        return;
+      } else if (i === 13) {
+        this.i = 0;
+        this.j = 0;
+        return;
+      }
+
+      this.i++;
+      this.j++;
     }
   },
 
-  beforeMount() {
+  beforeCreate() {
     document.title = "Tecnomajestic | " + this.title;
+  },
+
+  mounted() {
+    setInterval(() => this.changeHero(this.i), 5000);
   }
 };
 </script>
@@ -289,7 +352,25 @@ html {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  margin-left: -21px;
+  margin-left: -23px;
+}
+
+.point {
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.point:hover {
+  background-color: white;
+}
+
+.point--active {
+  background-color: white;
 }
 
 .fa-chevron-down {
@@ -389,5 +470,15 @@ html {
 
 .box {
   background-color: #f7f7f7;
+}
+
+.row {
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -80px;
 }
 </style>
