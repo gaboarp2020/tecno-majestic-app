@@ -6,7 +6,7 @@
                 <div class="container">
                     <h1 class="title for-dark-title is-2">Servicios</h1>
                     <h2 class="subtitle for-dark-subtitle is-3">
-                        Los principales servicios que ofrecemos para tu empresa son los siguientes
+                        Los principales servicios que ofrecemos para tu empresa
                     </h2>
                 </div>
             </div>
@@ -49,8 +49,8 @@
                                 </div>
                                 <div class="column">
                                     <h1 class="title for-white mt-1">Implementación y Hosting</h1>
-                                    <p class="is-size-5 has-text-justified">Ofrecemos algunos beneficios claves para los Sistemas de Información empresariales: Ahorro de costes, rapidez de implementación y escalabilidad.</p>
-                                    <p class="is-size-5 mt-1 has-text-justified">Nos basamos en nuevos modelos de negocios que ofrecen servicios con muchas características atractivas para la mayoría de las empresas.</p>
+                                    <p class="is-size-5 has-text-grey-darker  has-text-justified">Ofrecemos algunos beneficios claves para los Sistemas de Información empresariales: Ahorro de costes, rapidez de implementación y escalabilidad.</p>
+                                    <p class="is-size-5 has-text-grey-darker  mt-1 has-text-justified">Nos basamos en nuevos modelos de negocios que ofrecen servicios con muchas características atractivas para la mayoría de las empresas.</p>
                                 </div>
                             </div>
                         </div>
@@ -61,8 +61,8 @@
                                 </div>
                                 <div class="column">
                                     <h1 class="title for-white mt-1">Desarrollo de Aplicaciones</h1>
-                                    <p class="is-size-5 has-text-justified">Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma.</p>
-                                    <p class="is-size-5 mt-1 has-text-justified">Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento.</p>
+                                    <p class="is-size-5 has-text-grey-darker  has-text-justified">Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma.</p>
+                                    <p class="is-size-5 has-text-grey-darker  mt-1 has-text-justified">Si piensa en desarrollar alguna webapp o aplicación móvil; nuestro equipo se centra tanto en la UI como en la UX y puede trabajar en el diseño, desarrollo e implementación y mantenimiento.</p>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +73,8 @@
                                 </div>
                                 <div class="column">
                                     <h1 class="title for-white mt-1">Consultoría Tecnológica</h1>
-                                    <p class="is-size-5 has-text-justified">Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero.</p>
-                                    <p class="is-size-5 mt-1 has-text-justified">Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios.</p>
+                                    <p class="is-size-5 has-text-grey-darker  has-text-justified">Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero.</p>
+                                    <p class="is-size-5 has-text-grey-darker  mt-1 has-text-justified">Ayudamos a mejorar tu impacto online. Vende más gracias a la implementación del e-commerce y soluciones que se integran a la perfección con tu modelo de negocios.</p>
                                 </div>
                             </div>
                         </div>
@@ -85,8 +85,8 @@
                                 </div>
                                 <div class="column">
                                     <h1 class="title for-white mt-1">Inteligencia de Negocios</h1>
-                                    <p class="is-size-5 has-text-justified">Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable.</p>
-                                    <p class="is-size-5 mt-1 has-text-justified">Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa.</p>
+                                    <p class="is-size-5 has-text-grey-darker  has-text-justified">Actualmente las empresas se ven regidas por el ambiente global en el que se desempeñan, el cual es altamente competitivo y exige una constante toma de decisiones estratégicas si se busca permanecer en el mercado de manera exitosa y rentable.</p>
+                                    <p class="is-size-5 has-text-grey-darker  mt-1 has-text-justified">Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa.</p>
                                 </div>
                             </div>
                         </div>

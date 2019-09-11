@@ -30,7 +30,7 @@
         <span class="point"></span>
         <span class="point"></span>
         <span class="point"></span>
-      </div> -->
+      </div>-->
       <span class="icon is-large donwArrow-icon">
         <a href="#home">
           <i class="fa for-dark-subtitle fa-2x fa-chevron-down"></i>
@@ -55,24 +55,24 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            <h1 class="title for-white has-text-centered">Nuestro Equipo de Trabajo</h1>
+            <h1 class="title for-white has-text-left">Nuestro Equipo de Trabajo</h1>
             <p
-              class="is-size-5 has-text-justified"
+              class="is-size-5 has-text-grey-darker has-text-justified"
             >Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos, estamos orgullosos de nuestra misión</p>
           </div>
         </div>
         <div class="columns mt-3 is-centered is-vcentered">
           <div class="column">
-            <h1 class="title for-white">Soluciones Modernas</h1>
+            <h1 class="title for-white has-text-left">Soluciones Modernas</h1>
             <p
-              class="is-size-5 has-text-justified"
+              class="is-size-5 has-text-grey-darker has-text-justified"
             >Desarrollamos soluciones prácticas para cualquier tipo de ambientes y aplicaciones web especializadas, diseñadas para asegurar un funcionamiento óptimo y una utilidad máxima, brindando confianza, seguridad y disponibilidad 24/7.</p>
             <p
-              class="is-size-5 mt-2 has-text-justified"
+              class="is-size-5 has-text-grey-darker mt-2 has-text-justified"
             >Tenemos la convicción de ser la mejor opción para consultorías en el área tecnológica y el desarrollo de soluciones en sistemas de información sofisticados adecuados a sus necesidades, seguros y confiables.</p>
           </div>
           <div class="column has-text-centered">
-            <img :src="getImgUrl(1)" alt="Grupo de personas" height="320" width="320">
+            <img :src="getImgUrl(1)" alt="Grupo de personas" height="320" width="320" />
           </div>
         </div>
       </div>
@@ -84,9 +84,9 @@
     >
       <div class="hero-body grey-layer">
         <div class="container">
-          <h1 class="title for-dark-title is-2">Servicios que ofrecemos</h1>
+          <h1 class="title for-dark-title has-text-left is-2">Servicios que ofrecemos</h1>
           <h2
-            class="subtitle for-dark-subtitle is-4"
+            class="subtitle for-dark-subtitle has-text-left is-4"
           >Integramos la implementación de Sistemas de Información bajo diversas tecnologías, diseñando e implementando tanto en la nube como en infraestructura privada.</h2>
         </div>
       </div>
@@ -99,11 +99,11 @@
             <div class="column">
               <div class="box">
                 <div class="section">
-                  <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140">
+                  <img :src="getImgUrl(3)" alt="Servicio Icono" height="140" width="140" />
                 </div>
                 <h1 class="title for-white">
                   Implementación y
-                  <br>Hosting
+                  <br />Hosting
                 </h1>
                 <p
                   class="is-size-5"
@@ -119,11 +119,11 @@
             <div class="column">
               <div class="box">
                 <div class="section">
-                  <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140">
+                  <img :src="getImgUrl(4)" alt="Servicio Icono" height="140" width="140" />
                 </div>
                 <h1 class="title for-white">
                   Desarrollo de Apps
-                  <br>Web
+                  <br />Web
                 </h1>
                 <p
                   class="is-size-5"
@@ -141,7 +141,7 @@
             <div class="column">
               <div class="box">
                 <div class="section">
-                  <img :src="getImgUrl(5)" alt="Servicio Icono" height="140" width="140">
+                  <img :src="getImgUrl(5)" alt="Servicio Icono" height="140" width="140" />
                 </div>
                 <h1 class="title for-white">Consultoría Tecnológica</h1>
                 <p
@@ -158,7 +158,7 @@
             <div class="column">
               <div class="box">
                 <div class="section">
-                  <img :src="getImgUrl(6)" alt="Servicio Icono" height="140" width="140">
+                  <img :src="getImgUrl(6)" alt="Servicio Icono" height="140" width="140" />
                 </div>
                 <h1 class="title for-white">Inteligencia de Negocios</h1>
                 <p
@@ -177,11 +177,11 @@
             <div class="column">
               <div class="box">
                 <div class="section">
-                  <img :src="getImgUrl(8)" alt="Servicio Icono" height="140" width="140">
+                  <img :src="getImgUrl(8)" alt="Servicio Icono" height="140" width="140" />
                 </div>
                 <h1 class="title for-white">
                   Desarrollo de Apps
-                  <br>Móviles
+                  <br />Móviles
                 </h1>
                 <p class="is-size-5">Desarrollo de aplicaciones para iOS y Android.</p>
                 <div class="section">
@@ -195,11 +195,11 @@
             <div class="column">
               <div class="box">
                 <div class="section">
-                  <img :src="getImgUrl(9)" alt="Servicio Icono" height="140" width="140">
+                  <img :src="getImgUrl(9)" alt="Servicio Icono" height="140" width="140" />
                 </div>
                 <h1 class="title for-white">
                   Desarrollo de Apps
-                  <br>Híbridas
+                  <br />Híbridas
                 </h1>
                 <p class="is-size-5">Desarrollo de aplicaciones multiplataformas.</p>
                 <div class="section">
@@ -210,6 +210,50 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section is-white">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title for-white has-text-left">Profesionales Certificados</h1>
+            <p
+              class="is-size-5 has-text-grey-darker has-text-justified"
+            >Nuestro equipo de expertos cuenta con certificaciones de Microsoft y amplios conocimientos en diversas tecnologías.</p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column has-text-centered">
+            <img :src="getImgUrl(14)" alt="Microsoft Certified" width="250" />
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <infinite-slide-bar>
+          <div class="columns is-vcentered">
+            <div class="column" v-for="stack in stacks">
+              <div class="mr-1">
+                <img :src="stack"/>
+              </div>
+            </div>
+          </div>
+        </infinite-slide-bar>
+      </div>
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title for-white has-text-left">Nuestro compromiso</h1>
+            <p class="is-size-5 has-text-grey-darker has-text-justified">
+              En
+              <strong>Tecno Majestic C.A.</strong>, nos comprometemos con ustedes, nuestros clientes, en apoyar y apalancar cada uno de los proyectos tecnológicos, con responsabilidad y calidad, honrando los lapsos definidos, innovando y mejorando de manera continua, con la visión de ser la mejor opción para la consultoría y los desarrollos de soluciones en sistemas de información adecuados a sus necesidades, potenciando sus fortalezas.
+            </p>
+            <p class="is-size-5 has-text-grey-darker has-text-justified mt-2">
+              Si está interesado en recibir mayor información sobre los servicios que podemos ofrecerle, nos puede contactar a través del formulario de contacto y con gusto
+              coordinaremos una entrevista personal o telefónica.
+            </p>
           </div>
         </div>
       </div>
@@ -239,11 +283,15 @@
 
 <script>
 import ContactForm from "../components/ContactForm.vue";
+import InfiniteSlideBar from "vue-infinite-slide-bar";
 
 let point = document.querySelectorAll("span.point");
 
 export default {
-  components: { ContactForm },
+  components: {
+    ContactForm,
+    InfiniteSlideBar
+  },
 
   data() {
     return {
@@ -251,17 +299,17 @@ export default {
       hero: {
         title: [
           "Innovando las Consultorías Tecnológicas",
-          "Hero title 2",
-          "Hero title 3",
-          "Hero title 4",
-          "Hero title 5"
+          "Implementación y Hosting",
+          "Desarrollo de Aplicaciones",
+          "Consultoría Tecnológica",
+          "Inteligencia de Negocios"
         ],
         content: [
-          "Consultorías y Desarrollo. Implementación en tiempo récord.",
-          "Content 2",
-          "Content 3",
-          "Content 4",
-          "Content 5"
+          "Consultorías y Desarrollo. Implementación en tiempo récord",
+          "Ahorro de costes, rapidez de implementación y escalabilidad",
+          "Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma",
+          "Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero",
+          "Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa"
         ]
       },
       image: [
@@ -278,7 +326,24 @@ export default {
         "../img/storage/hosting-v2.jpg", // 10
         "../img/storage/development-v2.jpg", // 11
         "../img/storage/consulting-v2.jpg", // 12
-        "../img/storage/opensource-v2.jpg" // 13
+        "../img/storage/opensource-v2.jpg", // 13
+        "../img/storage/microsoft-certified-professional.jpg"
+      ],
+      stacks: [
+        "../img/storage/tecnologias/html-css-js.png",
+        "../img/storage/tecnologias/php.png",
+        "../img/storage/tecnologias/Java.png",
+        "../img/storage/tecnologias/C-Sharp.png",
+        "../img/storage/tecnologias/Dynamics-CRM.png",
+        "../img/storage/tecnologias/microsoft-sql-server.svg",
+        "../img/storage/tecnologias/mysql.png",
+        "../img/storage/tecnologias/postgresql.png",
+        "../img/storage/tecnologias/ibm-db2.png",
+        "../img/storage/tecnologias/Power-Bi-logo-transparent.png",
+        "../img/storage/tecnologias/microsoft-excel.png",
+        "../img/storage/tecnologias/sybase-4-logo-png-transparent.png",
+        "../img/storage/tecnologias/informix-logo-png-transparent.png",
+        "../img/storage/tecnologias/as400.png"
       ],
       i: 0,
       j: 0
@@ -337,7 +402,7 @@ html {
 }
 
 .layer {
-  background-color: rgba(38, 38, 38, 0.57);
+  background-color: rgba(31, 31, 31, 0.603);
   top: 0;
   left: 0;
   width: 100%;
@@ -402,11 +467,23 @@ html {
   }
 }
 
+.is-dark-blue {
+  background-color: #54abde;
+}
+
 .is-blue {
   background-color: #72b8e8;
 }
 
 .for-blue {
+  color: #f2faffdb;
+}
+
+.for-blue-title {
+  color: #e7f5ffdb;
+}
+
+.for-blue-subtitle {
   color: #e7f5ffdb;
 }
 
@@ -415,12 +492,12 @@ html {
 }
 
 .for-green-title {
-  color: #edffc4;
+  color: #f6ffe2;
   /* color: #778c48; */
 }
 
 .for-green-subtitle {
-  color: #e8f3ce;
+  color: #ecf3db;
   /* color: #7c9050; */
 }
 
@@ -444,8 +521,12 @@ html {
   color: #4a406d;
 }
 
+.is-white {
+  background-color: #ffffff;
+}
+
 .for-white {
-  color: #616161;
+  color: #3d3d3d;
 }
 
 .for-dark-title {
@@ -453,12 +534,12 @@ html {
 }
 
 .for-dark-subtitle {
-  color: #dfdfdf;
+  color: #e9e9e9;
 }
-
+/* 
 .mt-1 {
-  margin-top: 1rem;
-}
+  margin-top: 0.1rem;
+} */
 
 .mt-2 {
   margin-top: 1.5rem;
@@ -466,6 +547,10 @@ html {
 
 .mt-3 {
   margin-top: 3rem;
+}
+
+.mr-1 {
+  margin-right: 1.2rem;
 }
 
 .box {
