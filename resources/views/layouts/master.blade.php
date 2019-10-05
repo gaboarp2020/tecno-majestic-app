@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Tecnomajestic | title</title>
         <meta name="description" content="Somos una empresa orientada a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.">
-        
+
         <!-- Twitter Card data -->
         <meta name="twitter:card" value="summary">
 
@@ -25,7 +25,7 @@
         @yield('content')
 
         <script src="/js/app.js"></script>
-        
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135481504-1"></script>
         <script>

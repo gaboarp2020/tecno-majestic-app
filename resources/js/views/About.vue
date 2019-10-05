@@ -32,12 +32,12 @@
             <p class="is-size-5 mt-2"></p>
           </div>
           <div class="column has-text-centered mt-3">
-            <img :src="getImgUrl(1)" alt="Grupo de personas" height="700"/>
+            <img :src="getImgUrl(1)" alt="Grupo de personas" height="700" />
           </div>
         </div>
         <div class="columns is-vcentered">
           <div class="column has-text-centered mt-3">
-            <img :src="getImgUrl(2)" alt="Vision" height="700"/>
+            <img :src="getImgUrl(2)" alt="Vision" height="700" />
           </div>
           <div class="column">
             <h1 class="title for-white has-text-centered">Visión</h1>
@@ -59,9 +59,9 @@
         </div>
       </div>
     </section>
-    <section class="hero is-medium has-text-left is-bold bg-cover is-green">
+    <section class="hero has-text-left is-bold bg-cover is-green">
       <div class="hero-body">
-        <div class="container">
+        <div class="container has-text-centered">
           <h1 class="title for-green-title is-2">Valores</h1>
           <h2 class="subtitle for-green-subtitle is-4">Lo mejor de nosotros, para nuestros clientes.</h2>
         </div>
@@ -138,7 +138,6 @@ export default {
   data() {
     return {
       title: "Nosotros",
-
       image: [
         "../img/background/home-about.jpg",
         "../img/storage/people-work.jpeg",

@@ -2817,14 +2817,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 var point = document.querySelectorAll("span.point");
@@ -2837,7 +2829,7 @@ var point = document.querySelectorAll("span.point");
     return {
       title: "Inicio",
       hero: {
-        title: ["Innovando las Consultorías Tecnológicas", "Implementación y Hosting", "Desarrollo de Aplicaciones", "Consultoría Tecnológica", "Inteligencia de Negocios"],
+        heading: ["Innovando las Consultorías Tecnológicas", "Implementación y Hosting", "Desarrollo de Aplicaciones", "Consultoría Tecnológica", "Inteligencia de Negocios"],
         content: ["Consultorías y Desarrollo. Implementación en tiempo récord", "Ahorro de costes, rapidez de implementación y escalabilidad", "Las aplicaciones web y móviles o híbridas son muy populares actualmente. Adicionalmente, son compatibles con cualquier plataforma", "Somos expertos en ofrecerte toda la información relacionada para el desarrollo de tu aplicación web o aplicaciones de gestión empresarial que te ayudarán a ahorrar tiempo y dinero", "Las tecnologías de información toman un papel crucial al permitir la recolección, almacenamiento y procesamiento de datos generados por la operación de la empresa"]
       },
       image: ["../img/background/home-hero.jpeg", // 0
@@ -5591,10 +5583,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "hero is-medium has-text-left is-bold bg-cover is-green" },
+      { staticClass: "hero has-text-left is-bold bg-cover is-green" },
       [
         _c("div", { staticClass: "hero-body" }, [
-          _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "container has-text-centered" }, [
             _c("h1", { staticClass: "title for-green-title is-2" }, [
               _vm._v("Valores")
             ]),
@@ -5797,8 +5789,8 @@ var render = function() {
                         "transition",
                         { attrs: { name: "slide-fade", mode: "out-in" } },
                         [
-                          _c("div", { key: _vm.hero.title[_vm.j] }, [
-                            _vm._v(_vm._s(_vm.hero.title[_vm.j]))
+                          _c("div", { key: _vm.hero.heading[_vm.j] }, [
+                            _vm._v(_vm._s(_vm.hero.heading[_vm.j]))
                           ])
                         ]
                       )
@@ -5839,10 +5831,8 @@ var render = function() {
     _vm._v(" "),
     _c("section", { staticClass: "section" }, [
       _c("div", { staticClass: "container" }, [
-        _vm._m(2),
-        _vm._v(" "),
         _c("div", { staticClass: "columns mt-3 is-centered is-vcentered" }, [
-          _vm._m(3),
+          _vm._m(2),
           _vm._v(" "),
           _c("div", { staticClass: "column has-text-centered" }, [
             _c("img", {
@@ -5864,7 +5854,7 @@ var render = function() {
         staticClass: "hero is-medium has-text-centered is-bold bg-cover",
         style: { backgroundImage: "url(" + _vm.image[2] + ")" }
       },
-      [_vm._m(4)]
+      [_vm._m(3)]
     ),
     _vm._v(" "),
     _c("section", { staticClass: "section" }, [
@@ -5884,7 +5874,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _vm._m(5),
+                _vm._m(4),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
@@ -5923,7 +5913,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _vm._m(6),
+                _vm._m(5),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v(
@@ -6048,7 +6038,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _vm._m(7),
+                _vm._m(6),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v("Desarrollo de aplicaciones para iOS y Android.")
@@ -6085,7 +6075,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _vm._m(8),
+                _vm._m(7),
                 _vm._v(" "),
                 _c("p", { staticClass: "is-size-5" }, [
                   _vm._v("Desarrollo de aplicaciones multiplataformas.")
@@ -6115,7 +6105,7 @@ var render = function() {
     _vm._v(" "),
     _c("section", { staticClass: "section is-white" }, [
       _c("div", { staticClass: "container" }, [
-        _vm._m(9),
+        _vm._m(8),
         _vm._v(" "),
         _c("div", { staticClass: "columns" }, [
           _c("div", { staticClass: "column has-text-centered" }, [
@@ -6152,7 +6142,7 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _vm._m(10)
+      _vm._m(9)
     ]),
     _vm._v(" "),
     _c(
@@ -6161,7 +6151,7 @@ var render = function() {
         staticClass: "hero is-medium has-text-centered is-bold bg-cover",
         style: { backgroundImage: "url(" + _vm.image[7] + ")" }
       },
-      [_vm._m(11)]
+      [_vm._m(10)]
     ),
     _vm._v(" "),
     _c("section", { staticClass: "section" }, [
@@ -6190,37 +6180,15 @@ var staticRenderFns = [
       _c("div", { staticClass: "hero-body" }, [
         _c("div", { staticClass: "container" }, [
           _c("h1", { staticClass: "title for-orange-title is-2" }, [
-            _vm._v("Nuestra Historia")
+            _vm._v("Nuestro Equipo de Trabajo")
           ]),
           _vm._v(" "),
           _c("h2", { staticClass: "subtitle for-orange-subtitle is-4" }, [
             _vm._v(
-              "Somos una empresa orientada a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta."
+              "Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos, estamos orgullosos de nuestra misión."
             )
           ])
         ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "columns" }, [
-      _c("div", { staticClass: "column" }, [
-        _c("h1", { staticClass: "title for-white has-text-left" }, [
-          _vm._v("Nuestro Equipo de Trabajo")
-        ]),
-        _vm._v(" "),
-        _c(
-          "p",
-          { staticClass: "is-size-5 has-text-grey-darker has-text-justified" },
-          [
-            _vm._v(
-              "Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos, estamos orgullosos de nuestra misión"
-            )
-          ]
-        )
       ])
     ])
   },
@@ -23311,8 +23279,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/gaboarp2020/code/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/gaboarp2020/code/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/juancpaiva/code/tecno-majestic-app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/juancpaiva/code/tecno-majestic-app/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

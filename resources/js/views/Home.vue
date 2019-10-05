@@ -12,7 +12,7 @@
             <div class="container">
               <h1 class="title for-dark-title is-2">
                 <transition name="slide-fade" mode="out-in">
-                  <div :key="hero.title[j]">{{ hero.title[j] }}</div>
+                  <div :key="hero.heading[j]">{{ hero.heading[j] }}</div>
                 </transition>
               </h1>
               <h2 class="subtitle for-dark-subtitle is-3">
@@ -43,24 +43,16 @@
     <section class="hero is-orange is-bold">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title for-orange-title is-2">Nuestra Historia</h1>
+          <h1 class="title for-orange-title is-2">Nuestro Equipo de Trabajo</h1>
           <h2
             class="subtitle for-orange-subtitle is-4"
-          >Somos una empresa orientada a ofrecer servicios tecnológicos que incluyen soluciones integrales para nuestros clientes, asegurando la operatividad de sus negocios con tecnología de punta.</h2>
+          >Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos, estamos orgullosos de nuestra misión.</h2>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="columns">
-          <div class="column">
-            <h1 class="title for-white has-text-left">Nuestro Equipo de Trabajo</h1>
-            <p
-              class="is-size-5 has-text-grey-darker has-text-justified"
-            >Conformamos un equipo de trabajo jóven, guiado por expertos. Interesados en el dominio de las nuevas tendencias en el área de desarrollo y con las mejores ideas innovadoras. Fomentamos el talento, actuamos éticamente y cumplimos con nuestros compromisos, estamos orgullosos de nuestra misión</p>
-          </div>
-        </div>
         <div class="columns mt-3 is-centered is-vcentered">
           <div class="column">
             <h1 class="title for-white has-text-left">Soluciones Modernas</h1>
@@ -297,7 +289,7 @@ export default {
     return {
       title: "Inicio",
       hero: {
-        title: [
+        heading: [
           "Innovando las Consultorías Tecnológicas",
           "Implementación y Hosting",
           "Desarrollo de Aplicaciones",
